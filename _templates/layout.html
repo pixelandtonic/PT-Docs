@@ -25,8 +25,9 @@
 		</div>
 
 		<div id="main" class="has-sidebar">
-			{% if parents %}
+			{% if pagename != 'index' %}
 				<ul id="crumbs">
+					<li><a href="/{{ addon|lower|replace(' ', '') }}/">{{ addon }} Docs</a></li>
 					{%- for parent in parents %}
 					<li><a href="{{ parent.link|e }}">{{ parent.title }}</a></li>
 					{%- endfor %}
