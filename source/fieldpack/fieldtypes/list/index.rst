@@ -1,0 +1,7 @@
+List
+====
+
+.. toctree::
+   :titlesonly:
+
+   tags

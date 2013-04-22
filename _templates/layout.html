@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>{{ title|striptags }}{% if pagename != 'index' %} - {{ addon }} Docs{% endif %}</title>
+	<link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css">
+	<link rel="stylesheet" href="/resources/css/docs.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body id="docs">
+	<script type="text/javascript">
+		if (typeof document.querySelectorAll != 'undefined')
+		{
+			document.body.className += ' hide-dds';
+		}
+	</script>
+
+	<div id="container">
+		<div id="sidebar">
+			<nav class="nav">
+				<h1><a href="/{{ addon|lower|replace(' ', '') }}/">{{ addon }} Docs</a></h1>
+				{{ toctree() }}
+			</nav>
+		</div>
+
+		<div id="main" class="has-sidebar">
+			{% if parents %}
+				<ul id="crumbs">
+					{%- for parent in parents %}
+					<li><a href="{{ parent.link|e }}">{{ parent.title }}</a></li>
+					{%- endfor %}
+				</ul>
+			{% endif %}
+
+			{% block body %}{% endblock %}
+
+			{% if next %}
+			<nav id="next">
+				Next up: <a href="{{ next.link|e }}">{{ next.title|striptags|e }}</a></li>
+			</nav>
+			{% endif %}
+		</div>
+	</div>
+
+<script type="text/javascript" src="/resources/js/docs.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-13078437-1']);
+  _gaq.push(['_setDomainName', 'pixelandtonic.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
