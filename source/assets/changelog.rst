@@ -2,6 +2,20 @@
 Changelog
 =========
 
+Assets 2.1.1
+----------------------
+Released on
+
+* Fixed a bug where no_results would trigger incorrectly.
+* Fixed a bug that preventing renaming files or folders by just changing the case.
+* Fixed a bug where "unformatted" parameter was ignored for {size} within the primary tag pair.
+* Fixed a bug where checkboxes would become unchecked for Upload Folder settings for fields after updating to Assets 2.
+* Fixed a bug where short tags would not work with files uploaded via Safecracker.
+* Fixed a bug where image borders would show up incorrectly on Publish page.
+* Fixed deprecation notices in Developer log when using Expression Engine 2.6.
+* Changed CSS to keep the visual experience consistent when using Expression Engine 2.6.
+* Added format parameter to the {date} tag.
+* Added file_id parameter for {exp:assets:files} tag.
 
 Assets 2.1
 ----------------------

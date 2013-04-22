@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Wygwam 2.7.1
+-------------------
+Released on
+
+* Fixed deprecation notices in Developer log when using Expression Engine 2.6.
+
 Wygwam 2.7
 -------------------
 Released on Jan 22, 2013
