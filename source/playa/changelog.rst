@@ -1,6 +1,29 @@
 Changelog
 =========
 
+Playa 4.4.1
+-------------------
+Released on Apr 17, 2013
+
+* Playa is now compatible with jQuery 1.9.
+* Fixed a bug where using the channel filter would only display entries from the channel with an ID of 1.
+* Fixed SQL errors that would occur on clean installs of Playa.
+
+Playa 4.4
+-------------------
+Released on Apr 16, 2013
+
+* Added Better Workflow compatibility (requires BWF 1.6 or later).
+* Added the ability to filter entries by member group.
+* Added the ability to only show entries which are editable by the current user.
+* Added support for ``CURRENT_USER`` and ``NOT_CURRENT_USER`` constants when filtering Playa relations by author.
+* Deprecated the ``{child:property}`` and ``{parent:property}`` tags within Playa tag pairs, in favor of the ``var_prefix`` parameter.
+* Drastically decreased Playa’s memory footprint in the templates.
+* Prevented several vectors of SQL injection attacks.
+* Fixed a parsing bug for nested Playa tags.
+* Fixed a bug where Site ID would not be applied as a filter on MSM installations.
+
+
 Playa 4.3.3
 ----------------------
 Released on Jul 25, 2012
