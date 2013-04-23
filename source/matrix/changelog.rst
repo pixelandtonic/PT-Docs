@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Matrix 2.5.4
+----------------------
+Released on
+
+* Fixed some issues with Better Workflow compatibility.
+* Fixed deprecation notices in Developer log when using Expression Engine 2.6.
+* Super / Low search compatibility.
+
 Matrix 2.5.3
 ----------------------
 Released on Jan 22, 2013
