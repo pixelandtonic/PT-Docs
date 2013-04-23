@@ -5,7 +5,7 @@ Wygwam 2.7.1
 -------------------
 Released on
 
-* Fixed deprecation notices in Developer log when using Expression Engine 2.6.
+* ExpressionEngine 2.6 compatibility.
 
 Wygwam 2.7
 -------------------

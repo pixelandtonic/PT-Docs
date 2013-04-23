@@ -5,9 +5,9 @@ Matrix 2.5.4
 ----------------------
 Released on
 
+* Added EE 2.6 compatibility.
+* Fixed Low Search and Solspace Super Search compatibility.
 * Fixed some issues with Better Workflow compatibility.
-* Fixed deprecation notices in Developer log when using Expression Engine 2.6.
-* Super / Low search compatibility.
 
 Matrix 2.5.3
 ----------------------
