@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Field Pack 2.0.1
+----------------------
+Released on Apr 29, 2013
+
+* Fixed a PHP error when installing Field Pack 2 if Matrix is not installed.
+* Fixed a PHP error when upgrading to Field Pack 2 from P&T Field Pack 1.x.
+
 Field Pack 2.0
 ----------------------
 Released on Apr 23, 2013
