@@ -1,6 +1,15 @@
 Changelog
 =========
 
+Field Pack 2.0
+----------------------
+Released on Apr 23, 2013
+
+* Merged all former Dive Bar fieldtypes into a single add-on package (requires EE 2.6+).
+* Minor performance improvements and bug fixes.
+
+
+
 P&T Field Pack 1.0.3
 ----------------------
 Released on Dec 15, 2010
