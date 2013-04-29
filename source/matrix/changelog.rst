@@ -3,7 +3,7 @@ Changelog
 
 Matrix 2.5.4
 ----------------------
-Released on
+Released on Apr 23, 2013
 
 * Added EE 2.6 compatibility.
 * Fixed Low Search and Solspace Super Search compatibility.

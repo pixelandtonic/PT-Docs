@@ -3,7 +3,7 @@ Changelog
 
 Wygwam 2.7.1
 -------------------
-Released on
+Released on Apr 23, 2013
 
 * ExpressionEngine 2.6 compatibility.
 

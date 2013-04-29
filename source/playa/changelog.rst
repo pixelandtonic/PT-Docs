@@ -3,6 +3,7 @@ Changelog
 
 Playa 4.4.2
 -------------------
+Released on Apr 23, 2013
 
 * ExpressionEngine 2.6 compatibility.
 

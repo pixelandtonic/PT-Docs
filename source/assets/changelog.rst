@@ -4,7 +4,7 @@ Changelog
 
 Assets 2.1.1
 ----------------------
-Released on
+Released on Apr 23, 2013
 
 * Added EE 2.6 compatibility.
 * Added the ``file_id`` parameter to the ``{exp:assets:files}`` tag.
