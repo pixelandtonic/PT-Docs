@@ -2,6 +2,19 @@
 Changelog
 =========
 
+Assets 2.1.2
+----------------------
+Released on Apr 30, 2013
+
+* Corrected a few database indexes that could have remained for some installation scenarios.
+* Fixed date display in file properties modal for EE 2.6.
+* Fixed some IE 8 UI issues.
+* Fixed a bug where a file uploaded via Safecracker would not have it's thumbnails and manipulations generated.
+* Fixed a bug where the Upload button would fade out but would not be disabled.
+* Display a message if an upload fails.
+* Add buttons at the footer of Assets file selection sheet.
+* EE Upload Folder max width and height preferenes are now observed.
+
 Assets 2.1.1
 ----------------------
 Released on Apr 23, 2013
