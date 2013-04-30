@@ -2,6 +2,11 @@ Playa Docs
 ==========
 
 .. toctree::
+   :hidden:
+
+   self
+
+.. toctree::
    :titlesonly:
 
    installation

@@ -1,5 +1,10 @@
-Matrix
-==========
+Matrix Docs
+===========
+
+.. toctree::
+   :hidden:
+
+   self
 
 .. toctree::
    :titlesonly:
