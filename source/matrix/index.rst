@@ -2,11 +2,6 @@ Matrix Docs
 ===========
 
 .. toctree::
-   :hidden:
-
-   self
-
-.. toctree::
    :titlesonly:
 
    installation

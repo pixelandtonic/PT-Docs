@@ -2,11 +2,6 @@ Wygwam Docs
 ===========
 
 .. toctree::
-   :hidden:
-
-   self
-
-.. toctree::
    :titlesonly:
 
    installation
