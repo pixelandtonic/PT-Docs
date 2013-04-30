@@ -27,7 +27,7 @@ Tag Parameters
 
     .. code-block:: html
 
-        {exp:playa:children channel="news" parse="inward" var_prefix="news"}
+        {exp:playa:children channel="news" var_prefix="news"}
             {news:exp:playa:children channel="editors" var_prefix="editor"}
                 {news:title} - {editor:title}
             {/news:exp:playa:children}
