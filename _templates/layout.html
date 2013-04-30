@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>{{ title|striptags }}{% if pagename != 'index' %} - {{ addon }} Docs{% endif %}</title>
 	<link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css">
-	<link rel="stylesheet" href="/resources/css/docs.css" type="text/css">
+	<link rel="stylesheet" href="{{ pathto('_static/css/docs.css', 1) }}" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -26,7 +26,6 @@
 		<div id="main" class="has-sidebar">
 			{% if pagename != 'index' %}
 				<ul id="crumbs">
-					<li><a href="/{{ addon|lower|replace(' ', '') }}/">{{ addon }} Docs</a></li>
 					{%- for parent in parents %}
 					<li><a href="{{ parent.link|e }}">{{ parent.title }}</a></li>
 					{%- endfor %}
@@ -43,7 +42,7 @@
 		</div>
 	</div>
 
-<script type="text/javascript" src="/resources/js/docs.js"></script>
+<script type="text/javascript" src="{{ pathto('_static/js/docs.js', 1) }}"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-13078437-1']);
