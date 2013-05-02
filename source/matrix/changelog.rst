@@ -9,6 +9,7 @@ Released on May 2, 2013
 * Number cells now allow the use of thousands_sep and dec_point parameters in templates
 * Fixed a bug that prevented RTE fields from being used in a Safecracker form.
 * Fixed a bug that prevented changing number of rows for RTE cells.
+* Fixed a bug that would break Matrix on old PHP installs.
 
 Matrix 2.5.4
 ----------------------
