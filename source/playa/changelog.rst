@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Playa 4.4.3
+-------------------
+Released on May 1, 2013
+
+* Fixed a possible error on PHP versions below 5.2, when using EE that was older than 2.6.
+* Fixed a bug in update scripts to accomodate Expression Engine 2.6 DB schema changes.
+
 Playa 4.4.2
 -------------------
 Released on Apr 23, 2013
