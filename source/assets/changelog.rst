@@ -17,6 +17,7 @@ Released on May XX, 2013
 * Fixed a bug where images that get resized due to Upoad File Directory preferences would get incorrect width and height values stored in the database.
 * Fixed a bug where ``{exp:assets:files}`` tag would not work if ``file_id`` parameter was empty.
 * Fixed a bug where it was impossible to delete or change a file's title in Assets File Manager, once it reached the maximum length.
+* Fixed a bug where Assets would return an unparsed template rather than an empty string when no files would be found for an entry.
 
 Assets 2.1.2
 ----------------------
