@@ -4,19 +4,19 @@ Changelog
 
 Assets 2.1.3
 ----------------------
-Released on May XX, 2013
+Released on May 10, 2013
 
-* Fixed a bug where an upload conflict would be confused with a failed upload
-* Fixed a bug with displaying the time modified for files in List view.
-* Fixed a bug where Assets module page titles would be broken for EE below 2.6.
+* Fixed a bug where an upload conflict would be confused with a failed upload.
+* Fixed a bug with displaying the modified time for files in List view.
+* Fixed a bug where Assets module page titles would be broken for EE < 2.6.
 * Fixed a bug where the upload process could break for very small files.
-* Fixed a bug where Assets would break with EE below 2.6 and PHP below 5.2.
-* Fixed a bug in extension that would sometimes generete notices for EE's Filemanager sync.
-* Fixed a bug where it was possible register an existing file with Assets multiple times.
-* Fixed a bug where it was not possible to search Assets subfolders with Assets File Manager.
-* Fixed a bug where images that get resized due to Upoad File Directory preferences would get incorrect width and height values stored in the database.
-* Fixed a bug where ``{exp:assets:files}`` tag would not work if ``file_id`` parameter was empty.
-* Fixed a bug where it was impossible to delete or change a file's title in Assets File Manager, once it reached the maximum length.
+* Fixed a bug where Assets would break with EE < 2.6 and PHP < 5.2.
+* Fixed a bug that would sometimes generete notices for EE's upload directory sync.
+* Fixed a bug where it was possible to register an existing file with Assets multiple times.
+* Fixed a bug where that broke subfolder searching in the File Manager.
+* Fixed a bug where images that get resized due to upoad directory preferences would get incorrect width and height values stored in the database.
+* Fixed a bug where the ``{exp:assets:files}`` tag would not work if the ``file_id`` parameter was empty.
+* Fixed a bug where it was impossible to delete or change a file's title in the File Manager, once it reached the maximum length.
 * Fixed a bug where Assets would return an unparsed template rather than an empty string when no files would be found for an entry.
 
 Assets 2.1.2
