@@ -3,13 +3,14 @@ Changelog
 
 Matrix 2.5.5
 ----------------------
-Released on May 2, 2013
+Released on May 10, 2013
 
-* Added compatibility with EE revisions.
-* Number cells now allow the use of thousands_sep and dec_point parameters in templates
-* Fixed a bug that prevented RTE fields from being used in a Safecracker form.
-* Fixed a bug that prevented changing number of rows for RTE cells.
-* Fixed a bug that would break Matrix on old PHP installs.
+* Added EE revision compatibility.
+* Added support for ``thousands_sep`` and ``dec_point`` tag parameters to Number columns.
+* Added ``col_id``, ``col_name``, and ``col_required`` keys to celltypes’ ``$this->settings`` array in ``display_cell()``.
+* Fixed a bug that prevented Rich Text columns’ Textarea Rows setting from working.
+* Fixed a bug that prevented Rich Text columns from being used in Safecracker forms.
+* Fixed a bug that would break Matrix fields on servers with older versions of PHP installed.
 
 Matrix 2.5.4
 ----------------------
