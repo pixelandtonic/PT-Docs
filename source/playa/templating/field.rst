@@ -21,7 +21,7 @@ Tag Parameters
 
 The primary tag pair supports almost all of ``{exp:channel:entries}``’ `tag parameters <http://ellislab.com/expressionengine/user-guide/modules/channel/channel_entries.html#parameters>`_, as well as the following:
 
-``child_ids``
+``child_id``
     The child entry ID(s) to include. Prefix with “``not``” to define entries to exclude instead.
 
 **Note:** Playa sets the ``disable`` tag parameter to “``categories|category_fields|member_data|pagination``” by default. So if you want to display categories, member data, or pagination tags in your Playa tag pair, you’ll need to override that parameter.
@@ -50,7 +50,7 @@ Tag Parameters
 
 The ``:ul`` and ``:ol`` tags support almost all of ``{exp:channel:entries}``’ `tag parameters <http://ellislab.com/expressionengine/user-guide/modules/channel/channel_entries.html#parameters>`_, as well as the following:
 
-``child_ids``
+``child_id``
     The child entry ID(s) to include. Prefix with “``not``” to define entries to exclude instead.
 
 
@@ -68,7 +68,7 @@ Tag Parameters
 
 The ``:total_children`` tag supports almost all of ``{exp:channel:entries}``’ `tag parameters <http://ellislab.com/expressionengine/user-guide/modules/channel/channel_entries.html#parameters>`_, as well as the following:
 
-``child_ids``
+``child_id``
     The child entry ID(s) to include. Prefix with “``not``” to define entries to exclude instead.
 
 
