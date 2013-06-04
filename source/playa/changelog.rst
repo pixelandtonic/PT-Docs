@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Playa 4.4.3
+-------------------
+Released on May 10, 2013
+
+* Updated the Relationship field conversion script for EE 2.6.
+* Fixed an error that could occur when using PHP < 5.2 and EE < 2.6.
+
 Playa 4.4.2
 -------------------
 Released on Apr 23, 2013

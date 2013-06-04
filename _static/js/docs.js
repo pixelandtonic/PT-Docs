@@ -55,9 +55,16 @@ if (typeof document.querySelectorAll != 'undefined')
 
 	for (var i = 0; i < dls.length; i++)
 	{
+		var dl = dls[i];
+
+		// Make sure it's not a nested DL
+		if (dl.parentNode.nodeName == 'DD')
+		{
+			continue;
+		}
+
 		// Add the toggle all buttons
-		var dl = dls[i],
-			toggleAll = document.createElement('div');
+		var toggleAll = document.createElement('div');
 
 		dl.parentNode.insertBefore(toggleAll, dl);
 		toggleAll.className = 'toggle-all';

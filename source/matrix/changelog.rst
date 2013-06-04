@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Matrix 2.5.5
+----------------------
+Released on May 10, 2013
+
+* Added EE revision compatibility.
+* Added support for ``thousands_sep`` and ``dec_point`` tag parameters to Number columns.
+* Added ``col_id``, ``col_name``, and ``col_required`` keys to celltypes’ ``$this->settings`` array in ``display_cell()``.
+* Fixed a bug that prevented Rich Text columns’ Textarea Rows setting from working.
+* Fixed a bug that prevented Rich Text columns from being used in Safecracker forms.
+* Fixed a bug that would break Matrix fields on servers with older versions of PHP installed.
+
 Matrix 2.5.4
 ----------------------
 Released on Apr 23, 2013

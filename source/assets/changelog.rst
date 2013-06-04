@@ -2,6 +2,23 @@
 Changelog
 =========
 
+Assets 2.1.3
+----------------------
+Released on May 10, 2013
+
+* Fixed a bug where an upload conflict would be confused with a failed upload.
+* Fixed a bug with displaying the modified time for files in List view.
+* Fixed a bug where Assets module page titles would be broken for EE < 2.6.
+* Fixed a bug where the upload process could break for very small files.
+* Fixed a bug where Assets would break with EE < 2.6 and PHP < 5.2.
+* Fixed a bug that would sometimes generete notices for EE's upload directory sync.
+* Fixed a bug where it was possible to register an existing file with Assets multiple times.
+* Fixed a bug where that broke subfolder searching in the File Manager.
+* Fixed a bug where images that get resized due to upoad directory preferences would get incorrect width and height values stored in the database.
+* Fixed a bug where the ``{exp:assets:files}`` tag would not work if the ``file_id`` parameter was empty.
+* Fixed a bug where it was impossible to delete or change a file's title in the File Manager, once it reached the maximum length.
+* Fixed a bug where Assets would return an unparsed template rather than an empty string when no files would be found for an entry.
+
 Assets 2.1.2
 ----------------------
 Released on Apr 30, 2013
@@ -12,7 +29,7 @@ Released on Apr 30, 2013
 * Failed uploads now display a proper error message.
 * Fixed the date display in the file properties modal for EE 2.6.
 * Fixed some IE8 CSS glitches.
-* Fixed a bug where uplodaing an image via Safecracker would not get its thumbnails and manipulations generated.
+* Fixed a bug where uploading an image via Safecracker would not get its thumbnails and manipulations generated.
 * Fixed a bug where the Upload button would still appear to work when it was disabled.
 
 Assets 2.1.1
