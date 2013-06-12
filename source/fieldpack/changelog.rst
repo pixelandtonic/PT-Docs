@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Field Pack 2.0.2
+----------------------
+Released on May 10, 2013
+
+* Fixed a bug where Switch thought its class name was still ``pt_switch``.
+
 Field Pack 2.0.1
 ----------------------
 Released on Apr 29, 2013
