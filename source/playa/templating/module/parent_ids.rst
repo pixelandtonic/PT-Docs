@@ -1,10 +1,10 @@
-``{exp:playa:total_parents}``
+``{exp:playa:parents_ids}``
 =============================
 
 Tag Parameters
 --------------
 
-``{exp:playa:total_parents}`` supports almost all of ``{exp:channel:entries}``’ `tag parameters <http://ellislab.com/expressionengine/user-guide/modules/channel/channel_entries.html#parameters>`_, as well as the following:
+``{exp:playa:parents_ids}`` supports almost all of ``{exp:channel:entries}``’ `tag parameters <http://ellislab.com/expressionengine/user-guide/modules/channel/channel_entries.html#parameters>`_, as well as the following:
 
 .. include:: /templating/_includes/shared_parent_params.rst
 
