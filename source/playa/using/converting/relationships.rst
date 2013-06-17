@@ -9,4 +9,4 @@ Here’s how to do it:
 
 #. Go to Add-Ons → Fieldtypes → Playa
 #. Choose which fields you wish to convert in the “Convert Relationship fields?” setting, and click “Submit”
-#. Updated your templates to use :doc:`Playa’s template tags </templating/index>`
+#. Update your templates to use :doc:`Playa’s template tags </templating/index>`
