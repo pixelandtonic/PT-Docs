@@ -11,6 +11,7 @@ Released on July 2, 2013
 * Reduced the generated deprecation notices to one per deprecated tag per template
 * Fix several MSM issues
 * Fix an issue when filtering entries by category id, using the "not" modifier
+* Fix an issue where some Playa tags would not support the show_future_entries parameter and would always include future entries.
 
 Playa 4.4.3
 -------------------
