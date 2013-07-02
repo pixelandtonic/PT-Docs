@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Playa 4.4.4
+-------------------
+Released on July 2, 2013
+
+* Fixed an issue with Playa and Low Variables
+* Fixed ordering relationships within a Matrix field
+* Fixed a possible bug when updating Playa to Playa 4 and EE to EE 2.6 in one go
+* Reduced the generated deprecation notices to one per deprecated tag per template
+* Fix several MSM issues
+* Fix an issue when filtering entries by category id, using the "not" modifier
+
 Playa 4.4.3
 -------------------
 Released on May 10, 2013
