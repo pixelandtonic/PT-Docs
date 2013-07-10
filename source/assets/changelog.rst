@@ -6,6 +6,9 @@ Assets 2.1.4
 ----------------------
 Released on July 2, 2013
 
+* Added support for "assets_cache_remote_images" configuration setting. If set to "no", Assets will not cache images stored on remote sources.
+* Added support for sorting by file ids, when using ``{exp:assets:files}`` with a list of file ids and no sort parameter.
+* Assets file manager now shows filename on hover when in thumbnail view.
 * Fixed a bug where disallowed filedirs would still be displayed in Assets File Manager.
 * Fixed a bug where a trailing slash was mandatory for subfolder settings for external sources.
 * Fixed a bug that would prevent updating from Assets <2 to 2.1 in one go.
