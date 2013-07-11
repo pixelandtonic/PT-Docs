@@ -2,6 +2,26 @@
 Changelog
 =========
 
+Assets 2.1.4
+----------------------
+Released on July 2, 2013
+
+* Added support for "assets_cache_remote_images" configuration setting. If set to "no", Assets will not cache images stored on remote sources.
+* Added support for sorting by file ids, when using ``{exp:assets:files}`` with a list of file ids and no sort parameter.
+* Assets file manager now shows filename on hover when in thumbnail view.
+* Fixed a bug where disallowed filedirs would still be displayed in Assets File Manager.
+* Fixed a bug where a trailing slash was mandatory for subfolder settings for external sources.
+* Fixed a bug that would prevent updating from Assets <2 to 2.1 in one go.
+* Fixed a bug with Assets and MSM, if Assets fields had the same name across multiple sites.
+* Fixed a possible error on sites with open_basedir setting set to On when deleting folders.
+* Fixed a bug where uploading a file would break on some versions of MySQL.
+* IE8 compatibility.
+* Fixed an error where unexpected response from Rackspace Cloud would break Assets on PHP versions prior to 5.3
+* Fixed an issue for Assets and Better Workflow.
+* Load Assets data for entries brought up by Relationships fields.
+* {filename} tag in field tags now correctly returns filename sans extension, as stated by documentation.
+* Fix an issue where Upload Filedir max size setting would not be taken into account.
+
 Assets 2.1.3
 ----------------------
 Released on May 10, 2013
