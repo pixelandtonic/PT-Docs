@@ -126,7 +126,7 @@ Released on Apr 17, 2012
 * Fixed some CSS conflicts with NSM Override.css
 * Fixed a bug where File cells would display a broken image if a thumbnail doesn’t exist
 * Renamed the language files back to the lang.xyz.php format
-* Added new `` matrix_save_row`` hook
+* Added new ``matrix_save_row`` hook
 * The ``matrix_data_query`` hook is now called every time ``_data_query()`` is called, and extensions are now passed a 4th argument, ``$select_mode``
 * Fixed a PHP error when submitting a SAEF for an entry that has a Matrix field, but without Matrix data in the post
 

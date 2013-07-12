@@ -144,7 +144,7 @@ Released on Nov 1, 2011
 * Added the ``child_id=`` param to ``{exp:playa:children}``
 * Added the ``parent_id=`` to ``{exp:playa:parents}``
 * ``:total_children`` and ``:total_parents`` now always return a number
-* Playa now uses ``$EE->TMPL->parse_variables_row()`` to parse relative entry tags (``parent:``/``child:``) so things like ``{parent:entry_date format="%F %d %Y"}`` now work``
+* Playa now uses ``$EE->TMPL->parse_variables_row()`` to parse relative entry tags (``parent:``/``child:``) so things like ``{parent:entry_date format="%F %d %Y"}`` now work
 * Tweaked the single-select UI so that the keyword search is always visible, no matter where the user clicked on the field
 * Ensure that there are no duplicate entries pulled in from the same Playa tag
 * Fixed bugs for better IE7 compatibility
@@ -183,7 +183,7 @@ Released on Feb 23, 2011
 * Fixed a bug where ``total_children`` and ``total_parents`` tags would return the total number of entries when they should have returned “0”
 * Fixed a bug where Playa tags wouldn’t return anything after having already been parsed once in the same HTTP request
 * Fixed a bug where Playa’s fieldtype tags would only output once when the parent ``{exp:channel:entries}`` tag had ``cache="yes"`` set
-* Fixed a bug where Playa wouldn’t display entries being pulled from a different MSM site *(``site=`` tag parameter required to get it working)*
+* Fixed a bug where Playa wouldn’t display entries being pulled from a different MSM site (The ``site`` tag param is required to get it working)
 * Fixed a Javascript error when using a Playa field within a Matrix field which doesn’t have any available entries
 * Fixed a bug where Playa fields wouldn’t display the correct entry status colors for statuses whose Highlight setting begins with “``#``”
 

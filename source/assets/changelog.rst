@@ -6,7 +6,7 @@ Assets 2.1.4
 ----------------------
 Released on July 12, 2013
 
-* Added a ``fixed_order`` param to ``{exp:assets:files}`` as an alternative to the ``file_id``param, where the order of the file IDs determines the order of the output files.
+* Added a ``fixed_order`` param to ``{exp:assets:files}`` as an alternative to the ``file_id`` param, where the order of the file IDs determines the order of the output files.
 * Added support for ``$config['assets_cache_remote_images'] = 'no';``. If set, Assets will not cache images stored on remote sources.
 * Assets’ fields and file manager now show the full filenames on hover when in Thumb View.
 * Fixed a bug where Assets columns within Matrix fields would not display thumbnails when set to List View.
