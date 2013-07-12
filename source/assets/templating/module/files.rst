@@ -22,6 +22,9 @@ Tag Parameters
 
 .. include:: /templating/_includes/file_params.rst
 
+``fixed_order``
+    Search for files by their ID in the exp_assets_files table (same as the ``file_id`` param), and output them in the same order as they were entered into the param. You may pass multiple values, delimited by pipes (‘``|``’).
+
 ``offset``
     Skips the first *X* files
 

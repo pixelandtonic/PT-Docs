@@ -3,15 +3,16 @@ Changelog
 
 Playa 4.4.4
 -------------------
-Released on July 2, 2013
+Released on July 12, 2013
 
-* Fixed an issue with Playa and Low Variables
-* Fixed ordering relationships within a Matrix field
-* Fixed a possible bug when updating Playa to Playa 4 and EE to EE 2.6 in one go
-* Reduced the generated deprecation notices to one per deprecated tag per template
-* Fix several MSM issues
-* Fix an issue when filtering entries by category id, using the "not" modifier
-* Fix an issue where some Playa tags would not support the show_future_entries parameter and would always include future entries.
+* Added a new ‘playa_parse_relationships’ extension hook.
+* When outputting child entries with ``{exp:playa:children}}`` that span across multiple entries/fields/Matrix rows/Matrix columns/Low Variables, Playa now keeps the child entries grouped together with other entries in the same Playa field by default.
+* Fixed a compatibility issue between Playa and Low Variables.
+* Fixed a possible bug when updating to Playa 4 and EE 2.6+ in one go.
+* Fixed a bug where Playa might log the same deprecation notice multiple times in the same template.
+* Fixed some bugs with MSM support.
+* Fixed a bug when filtering entries by category ID, using the “not” modifier.
+* Fixed a bug where some Playa tags would always include future entries, even without ``show_future_entries="yes"`` set.
 
 Playa 4.4.3
 -------------------

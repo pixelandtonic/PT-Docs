@@ -4,23 +4,24 @@ Changelog
 
 Assets 2.1.4
 ----------------------
-Released on July 2, 2013
+Released on July 12, 2013
 
-* Added support for "assets_cache_remote_images" configuration setting. If set to "no", Assets will not cache images stored on remote sources.
-* Added support for sorting by file ids, when using ``{exp:assets:files}`` with a list of file ids and no sort parameter.
-* Assets file manager now shows filename on hover when in thumbnail view.
-* Fixed a bug where disallowed filedirs would still be displayed in Assets File Manager.
-* Fixed a bug where a trailing slash was mandatory for subfolder settings for external sources.
-* Fixed a bug that would prevent updating from Assets <2 to 2.1 in one go.
+* Added a ``fixed_order`` param to ``{exp:assets:files}`` as an alternative to the ``file_id``param, where the order of the file IDs determines the order of the output files.
+* Added support for ``$config['assets_cache_remote_images'] = 'no';``. If set, Assets will not cache images stored on remote sources.
+* Assets’ fields and file manager now show the full filenames on hover when in Thumb View.
+* Fixed a bug where Assets columns within Matrix fields would not display thumbnails when set to List View.
+* Fixed a bug where disallowed upload directories would still be displayed in Assets’ file manager.
+* Fixed a bug where a trailing slash was mandatory for the Subfolder setting on external sources.
+* Fixed a bug that would prevent updating from Assets 1.x to 2.1 in one go.
 * Fixed a bug with Assets and MSM, if Assets fields had the same name across multiple sites.
-* Fixed a possible error on sites with open_basedir setting set to On when deleting folders.
+* Fixed a possible error when deleting folders on servers with open_basedir enabled.
 * Fixed a bug where uploading a file would break on some versions of MySQL.
-* IE8 compatibility.
-* Fixed an error where unexpected response from Rackspace Cloud would break Assets on PHP versions prior to 5.3
-* Fixed an issue for Assets and Better Workflow.
-* Load Assets data for entries brought up by Relationships fields.
-* {filename} tag in field tags now correctly returns filename sans extension, as stated by documentation.
-* Fix an issue where Upload Filedir max size setting would not be taken into account.
+* FIxed some IE8 compatibility issues.
+* Fixed an error that would occur when Assets received an unexpected response from Rackspace on PHP versions prior to 5.3.
+* Fixed a compatibility issue between Assets and Better Workflow.
+* Fixed a bug where Assets fields would not return any data when accessed via a Relationship field.
+* The ``{filename}`` tag now correctly returns the filename sans-extension, as stated by the documentation.
+* Fixed a bug where Assets would not respect the Maximum File Size setting.
 
 Assets 2.1.3
 ----------------------

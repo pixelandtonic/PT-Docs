@@ -3,15 +3,15 @@ Changelog
 
 Matrix 2.5.6
 ----------------------
-Released on July 2, 2013
+Released on July 12, 2013
 
-* Better EE Revision support.
-* Better BWF support.
-* Fixed a bug where entries saved with the Channel Entries API would get saved to the first entry.
+* Improved the EE entry revision support.
+* Improved the Better Workflow compatibility.
+* Fixed a bug where the Matrix data for all entries saved with the Channel Entries API would get saved to the first entry.
 * Fixed a bug that could occur when updating Matrix.
-* Fix date celltype for EE 2.6.
-* Fix a bug related to third-party search add-ons.
-* Fix an error where an illegal date string could crash EE.
+* Fixed the Date celltype for EE 2.6.
+* Fixed a bug with Matrix’s compatibility with third-party search add-ons.
+* Fixed a bug where an illegal date string could crash EE.
 
 Matrix 2.5.5
 ----------------------
