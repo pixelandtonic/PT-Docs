@@ -6,7 +6,7 @@ Playa 4.4.4
 Released on July 12, 2013
 
 * Added a new ‘playa_parse_relationships’ extension hook.
-* When outputting child entries with ``{exp:playa:children}}`` that span across multiple entries/fields/Matrix rows/Matrix columns/Low Variables, Playa now keeps the child entries grouped together with other entries in the same Playa field by default.
+* When outputting child entries with ``{exp:playa:children}`` that span across multiple entries/fields/Matrix rows/Matrix columns/Low Variables, Playa now keeps the child entries grouped together with other entries in the same Playa field by default.
 * Fixed a compatibility issue between Playa and Low Variables.
 * Fixed a possible bug when updating to Playa 4 and EE 2.6+ in one go.
 * Fixed a bug where Playa might log the same deprecation notice multiple times in the same template.
