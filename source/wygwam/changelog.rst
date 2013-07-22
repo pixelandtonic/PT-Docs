@@ -1,6 +1,16 @@
 Changelog
 =========
 
+Wygwam 3.0
+-------------------
+Released on July 22, 2013
+
+* Updated CKEditor to 4.2.
+* Added Content Elements compatibility.
+* Designed a new skin.
+* Added support for new CKEditor advanced config options.
+* Fixed the “Edit Configurations” link in the field settings.
+
 Wygwam 2.7.1
 -------------------
 Released on Apr 23, 2013
