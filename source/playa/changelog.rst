@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Playa 4.4.5
+-------------------
+Released on July 23, 2013
+
+* Fixed a PHP warning on Playa fields which had the Categories field setting set.
+* Security improvements.
+
 Playa 4.4.4
 -------------------
 Released on July 12, 2013
