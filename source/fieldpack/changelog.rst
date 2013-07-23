@@ -6,10 +6,10 @@ Field Pack 2.1
 Released on July 23, 2013
 
 * Added Content Elements compatibility.
-* Added a validate() method to Multiselect field.
-* If no options are set for a field, display a message instead of a PHP error.
+* Switch fields now fire a Javascript ‘change’ event when flipped.
 * Fixed a bug where changes to Switch fields would be lost when submitting an entry with a validation error.
-* Toggling the Switch field now fires javascript "change" event.
+* Fixed a bug where Multiselect fields marked as required would not get a validation error when submitted without a value.
+* Fixed a PHP warning that occurred when editing an entry with a Multiselect, Radio Buttons, Dropdown, or Checkboxes field without any options yet.
 
 Field Pack 2.0.2
 ----------------------
