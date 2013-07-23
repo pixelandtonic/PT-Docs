@@ -6,6 +6,6 @@ Wygwam Docs
 
    installation
    using/index
-   templating/field
+   templating/index
    developers/index
    changelog
