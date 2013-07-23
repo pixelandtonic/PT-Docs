@@ -6,3 +6,4 @@ Multiselect
 
    config
    tags
+   element_tags

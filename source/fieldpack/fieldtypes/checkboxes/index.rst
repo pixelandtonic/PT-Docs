@@ -6,3 +6,4 @@ Checkboxes
 
    config
    tags
+   element_tags

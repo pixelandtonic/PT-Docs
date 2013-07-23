@@ -5,3 +5,4 @@ List
    :titlesonly:
 
    tags
+   element_tags

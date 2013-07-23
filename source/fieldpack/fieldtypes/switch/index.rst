@@ -6,3 +6,4 @@ Switch
 
    config
    tags
+   element_tags

@@ -6,3 +6,4 @@ Pill
 
    config
    tags
+   element_tags

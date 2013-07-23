@@ -6,3 +6,4 @@ Dropdown
 
    config
    tags
+   element_tags

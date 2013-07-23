@@ -6,3 +6,4 @@ Radio Buttons
 
    config
    tags
+   element_tags

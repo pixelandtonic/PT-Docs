@@ -1,7 +1,7 @@
 Field Tags
 ==========
 
-The following tags are available for your Checkboxes fields within ``{exp:channel:entries}`` tag pairs.
+The following tags are available for your Checkboxes fields within ``{exp:channel:entries}`` and Matrix tag pairs.
 
 
 Primary Tag Pair
