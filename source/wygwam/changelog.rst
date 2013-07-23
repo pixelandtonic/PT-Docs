@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Wygwam 3.0.1
+-------------------
+Released on July 22, 2013
+
+* Brought back the Undersine, Subscript, Superscript, and Create Div toolbar buttons.
+
 Wygwam 3.0
 -------------------
 Released on July 22, 2013
