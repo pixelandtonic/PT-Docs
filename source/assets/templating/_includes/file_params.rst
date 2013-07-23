@@ -1,3 +1,5 @@
+.. rst-class:: collapsible
+
 ``folder``
     The path of the folder containing the files you wish to output. Set
     this parameter in the format of either

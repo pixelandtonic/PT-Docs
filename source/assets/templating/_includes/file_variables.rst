@@ -1,3 +1,5 @@
+.. rst-class:: collapsible
+
 ``{url}``
     The URL to the file.
 
