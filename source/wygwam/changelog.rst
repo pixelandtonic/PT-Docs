@@ -1,22 +1,39 @@
 Changelog
 =========
 
+Wygwam 3.1.1
+-------------------
+Released on Aug 6, 2013
+
+* Fixed a bug where the “Create Div Container” button wouldn’t do anything.
+* Fixed a bug where dialog text inputs would lose a couple pixels in height when focussed.
+* Deleted a bunch of CKEditor files that are not in use.
+* Removed the “About” button
+
+Wygwam 3.1
+-------------------
+Released on Aug 6, 2013
+
+* Added a new “Restrict allowed HTML?” setting which enables you to completely disable CKEditor’s automatic HTML filtering.
+* Added a new “Automatically populate the Styles menu with classes in your CSS file?” config setting, which serves as a wrapper for adding the ‘stylesheetparser’ plugin.
+* Brought back the Templates toolbar button.
+
 Wygwam 3.0.2
 -------------------
-Released on July 23, 2013
+Released on Jul 23, 2013
 
 * Brought back the Show Blocks toolbar button.
 * Redesigned the Embed Media and Read More toolbar buttons to match CKEditor 4’s new icon style.
 
 Wygwam 3.0.1
 -------------------
-Released on July 22, 2013
+Released on Jul 22, 2013
 
 * Brought back the Undersine, Subscript, Superscript, and Create Div toolbar buttons.
 
 Wygwam 3.0
 -------------------
-Released on July 22, 2013
+Released on Jul 22, 2013
 
 * Updated CKEditor to 4.2.
 * Added Content Elements compatibility.
