@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Wygwam 3.0.2
+-------------------
+Released on July 23, 2013
+
+* Brought back the Show Blocks toolbar button.
+* Redesigned the Embed Media and Read More toolbar buttons to match CKEditor 4’s new icon style.
+
 Wygwam 3.0.1
 -------------------
 Released on July 22, 2013
