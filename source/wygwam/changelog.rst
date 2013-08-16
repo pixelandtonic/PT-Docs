@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Wygwam 3.1.2
+-------------------
+Released on Aug 16, 2013
+
+* Brought back the text alignment buttons
+* Brought back the text color buttons
+
 Wygwam 3.1.1
 -------------------
 Released on Aug 6, 2013
