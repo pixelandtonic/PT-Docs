@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Field Pack 2.1.1
+----------------------
+Released on Aug 27, 2013
+
+* Fixed a PHP error in EE 2.7.
+
 Field Pack 2.1
 ----------------------
 Released on July 23, 2013

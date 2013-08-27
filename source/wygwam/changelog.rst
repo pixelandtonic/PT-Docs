@@ -7,6 +7,7 @@ Released on Aug 16, 2013
 
 * Brought back the text alignment buttons
 * Brought back the text color buttons
+* Added support for the ``{element_name}`` variable tag within Content Elements.
 
 Wygwam 3.1.1
 -------------------
