@@ -8,6 +8,7 @@ Released on September 25, 2013
 * The File cell type is now compatible with Channel Form.
 * When adding new rows via POST data, Matrix now takes care to add them after the existing rows.
 * The Date cell type no longer uses methods that were deprecated in EE 2.7.
+* Added a new ``matrix_modify_field_data`` extension hook.
 * Fixed various bugs with the Date cell type.
 * Fixed a PHP warning that could occur when when adding new rows with POST data.
 * Fixed a bug where publishing a Better Workflow draft might not publish all the data.
