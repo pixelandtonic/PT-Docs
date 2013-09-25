@@ -5,12 +5,12 @@ Matrix 2.5.7
 ----------------------
 Released on September 25, 2013
 
-* Fixed a possible warning when adding new rows with POST data.
-* When adding new rows via POST data, add them at the end of the existing rows.
-* Fixed various bugs with Date cell type.
-* Fixed a bug where publishing a Better Workflow draft would not publish all the cells.
-* Improved File cell type to be compatible with Channe Forms.
-* Fixed deprecation notices being thrown in Date cell type.
+* The File cell type is now compatible with Channel Form.
+* When adding new rows via POST data, Matrix now takes care to add them after the existing rows.
+* The Date cell type no longer uses methods that were deprecated in EE 2.7.
+* Fixed various bugs with the Date cell type.
+* Fixed a PHP warning that could occur when when adding new rows with POST data.
+* Fixed a bug where publishing a Better Workflow draft might not publish all the data.
 
 Matrix 2.5.6
 ----------------------
