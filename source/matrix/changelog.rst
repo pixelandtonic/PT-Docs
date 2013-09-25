@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Matrix 2.5.7
+----------------------
+Released on September 25, 2013
+
+* Fixed a possible warning when adding new rows with POST data.
+* When adding new rows via POST data, add them at the end of the existing rows.
+* Fixed various bugs with Date cell type.
+* Fixed a bug where publishing a Better Workflow draft would not publish all the cells.
+* Improved File cell type to be compatible with Channe Forms.
+* Fixed deprecation notices being thrown in Date cell type.
+
 Matrix 2.5.6
 ----------------------
 Released on July 12, 2013
