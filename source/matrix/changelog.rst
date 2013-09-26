@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Matrix 2.5.7.1
+----------------------
+Released on September 26, 2013
+
+* Fixed a bug where File cell type could trigger an error when used in a Channel Form.
+
 Matrix 2.5.7
 ----------------------
 Released on September 25, 2013
