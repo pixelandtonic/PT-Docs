@@ -1,11 +1,11 @@
 Changelog
 =========
 
-Matrix 2.5.7.1
+Matrix 2.5.8
 ----------------------
 Released on September 26, 2013
 
-* Fixed a bug where File cell type could trigger an error when used in a Channel Form.
+* Fixed a PHP error that could occur when a File cell type was used in a Channel Form without being accompanied by a normal File field.
 
 Matrix 2.5.7
 ----------------------
