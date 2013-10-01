@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Wygwam 3.2
+-------------------
+Released on Oct 1, 2013
+
+* Made it possible to connect Wygwam to `Assets <http://devot-ee.com/add-ons/assets>`_ sources on Amazon S3, Rackspace Cloud Files, and Google Cloud Storage.
+* Added the ``wygwam_tb_groups``, ``wygwam_tb_label_overrides``, and ``wygwam_tb_combos`` extension hooks, making it possible for other extensions to :doc:`add new toolbar buttons <developers/ckeditor_plugins>` to Wygwam’s toolbar configurator.
+* Fixed a bug where :doc:`Style Set <using/style_set>` labels could stretch out of view in the Styles menu.
+
 Wygwam 3.1.2
 -------------------
 Released on Aug 16, 2013

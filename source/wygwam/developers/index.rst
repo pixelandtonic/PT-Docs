@@ -5,4 +5,5 @@ Developer Docs
    :titlesonly:
 
    wygwam_config
+   ckeditor_plugins
    link_types
