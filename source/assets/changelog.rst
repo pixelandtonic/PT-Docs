@@ -2,6 +2,26 @@
 Changelog
 =========
 
+Assets 2.2
+----------------------
+Released on October 9th, 2013
+
+* Fixed a bug where {field:filename} would return the filename with the extension.
+* Fixed a bug where it was not possible to index upload filedirs with same names on MSM installations.
+* Fixed a bug where a missing trailing slash in ``subfolder`` setting for external sources would break Assets.
+* Fixed a bug where errors would occur if EE Upload filedir did not have a trailing slash.
+* Fixed a bug where unexpected Ajax responses could crash Publish page.
+* Fixed a bug where indexing might not work on Windows machines.
+* Fixed an issue where empty ``subfolder`` setting might cause incorrect URLs for files in external sources.
+* File manager view state is now remembered on a per-source basis.
+* Updated to the newest Garnish version
+* Remote source settings are now overridable with EE configuration.
+* Added ``{folder_id}``, ``{source_id}`` and ``{source_subfolder}`` tags to ``{exp:assets:files}`` and field tags.
+* Added an ``assets_update_file`` hook.
+* Added a Recent Uploads section.
+* Added Content Elements compatibility
+* Added Grid compatibility.
+
 Assets 2.1.4
 ----------------------
 Released on July 12, 2013

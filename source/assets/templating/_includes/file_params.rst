@@ -1,12 +1,5 @@
 .. rst-class:: collapsible
 
-``folder``
-    The path of the folder containing the files you wish to output. Set
-    this parameter in the format of either
-    “``{filedir_X}optional/subfolder/path``” or
-    “``{source_X}optional/subfolder/path``”. You may pass multiple
-    IDs, delimited by pipes (‘``|``’).
-
 ``folder_id``
     The ID of the folder containing the files you wish to output. You
     may pass multiple IDs, delimited by pipes (‘``|``’).
