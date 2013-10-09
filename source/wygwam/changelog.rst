@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Wygwam 3.2.1
+-------------------
+Released on Oct 2, 2013
+
+* Fixed PHP < 5.3 compatibility.
+
 Wygwam 3.2
 -------------------
 Released on Oct 1, 2013
