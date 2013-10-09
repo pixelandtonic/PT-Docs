@@ -6,3 +6,4 @@ Using Assets
 
    indexing
    fields
+   config
