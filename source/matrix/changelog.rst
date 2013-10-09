@@ -3,10 +3,10 @@ Changelog
 
 Matrix 2.5.9
 ----------------------
-Released on October 8, 2013
+Released on October 9, 2013
 
-* Fixed a PHP error that could occur when a new File cell would be created and saved for the first time.
-* Fixed PHP errors that could occur when upgrading Matrix to a newer version.
+* Fixed a PHP error that could occur when a new File cell was saved for the first time.
+* Fixed MySQL errors that could occur when upgrading Matrix to a newer version.
 
 Matrix 2.5.8
 ----------------------
