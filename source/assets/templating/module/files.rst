@@ -20,7 +20,19 @@ Tag Parameters
 
 ``{exp:assets:files}`` supports the following parameters:
 
-.. include:: /templating/_includes/file_params.rst
+``folder``
+    The path of the folder containing the files you wish to output. Set
+    this parameter in the format of either
+    “``{filedir_X}optional/subfolder/path``” or
+    “``{source_X}optional/subfolder/path``”. You may pass multiple
+    IDs, delimited by pipes (‘``|``’).
+
+``folder_id``
+    The ID of the folder containing the files you wish to output. You
+    may pass multiple IDs, delimited by pipes (‘``|``’).
+
+``keywords``
+    Search for files by their metadata values. You may pass multiple values, delimited by pipes (‘``|``’) or double-ampersands (‘``&&``’).
 
 ``fixed_order``
     Search for files by their ID in the exp_assets_files table (same as the ``file_id`` param), and output them in the same order as they were entered into the param. You may pass multiple values, delimited by pipes (‘``|``’).

@@ -6,3 +6,4 @@ Templating
 
    module/index
    field
+   content_elements

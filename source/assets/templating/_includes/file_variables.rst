@@ -13,6 +13,15 @@
 ``{subfolder}``
     The subfolder that the file lives in, if any.
 
+``{source_subfolder}``
+    The subfolder within the sourcethat the file lives in, if any.
+
+``{folder_id}``
+    Id of the folder containing the file.
+
+``{source_id}``
+    Id of the source containing the file.
+
 ``{filename}``
     The name of the file, sans-extension.
 
