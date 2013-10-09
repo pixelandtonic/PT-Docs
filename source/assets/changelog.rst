@@ -6,21 +6,21 @@ Assets 2.2
 ----------------------
 Released on October 9th, 2013
 
-* Fixed a bug where {field:filename} would return the filename with the extension.
-* Fixed a bug where it was not possible to index upload filedirs with same names on MSM installations.
-* Fixed a bug where a missing trailing slash in ``subfolder`` setting for external sources would break Assets.
-* Fixed a bug where errors would occur if EE Upload filedir did not have a trailing slash.
-* Fixed a bug where unexpected Ajax responses could crash Publish page.
-* Fixed a bug where indexing might not work on Windows machines.
-* Fixed an issue where empty ``subfolder`` setting might cause incorrect URLs for files in external sources.
-* File manager view state is now remembered on a per-source basis.
-* Updated to the newest Garnish version
-* Remote source settings are now overridable with EE configuration.
-* Added ``{folder_id}``, ``{source_id}`` and ``{source_subfolder}`` tags to ``{exp:assets:files}`` and field tags.
-* Added an ``assets_update_file`` hook.
-* Added a Recent Uploads section.
 * Added Content Elements compatibility
 * Added Grid compatibility.
+* Added a new Recent Uploads smart source that displays all of the files the current user has recently uploaded.
+* Added ``{folder_id}``, ``{source_id}`` and ``{source_subfolder}`` tags to ``{exp:assets:files}`` and Assets field tags.
+* View states are now remembered on a per-source basis, across multiple fields.
+* It is no longer necessary to add a trailing slash to the “Subfolder” setting on external sources.
+* Added a new ‘assets_recent_upload_hours’ config setting, which determines how far back the Recent Uploads smart source should look for new files (defaults to 24).
+* Added a new ‘assets_source_settings’ config setting, making it possible to override your asset source settings from config.php.
+* Added a new ‘assets_file_meta_save’ hook that gets called before new file metadata is saved to the database.
+* Fixed a bug where the ``{assets_field:filename}`` shortcut tag would include the extension in its response, unlike ``{filename}``.
+* Fixed a bug where Assets could output incorrect file URLs on external sources when the “Subfolder” setting was left blank.
+* Fixed some PHP errors when working with EE upload directories taht didn’t have a trailish slash in the Server Path setting.
+* Fixed a bug where it was not possible to index two upload directories with same names across two MSM sites.
+* Fixed a bug where unexpected Ajax responses could crash the Publish page.
+* Fixed a bug where indexing might not work on Windows machines.
 
 Assets 2.1.4
 ----------------------
