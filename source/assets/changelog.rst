@@ -2,13 +2,19 @@
 Changelog
 =========
 
+Assets 2.2.1
+----------------------
+Released on October 9, 2013
+
+* Fixed a MySQL error that could occur when saving entries.
+
 Assets 2.2
 ----------------------
-Released on October 9th, 2013
+Released on October 9, 2013
 
 * Added Content Elements compatibility
 * Added Grid compatibility.
-* Added a new Recent Uploads smart source that displays all of the files the current user has recently uploaded.
+* Added a new Recent Uploads smart source that displays all of the files that were recently uploaded.
 * Added ``{folder_id}``, ``{source_id}`` and ``{source_subfolder}`` tags to ``{exp:assets:files}`` and Assets field tags.
 * View states are now remembered on a per-source basis, across multiple fields.
 * It is no longer necessary to add a trailing slash to the “Subfolder” setting on external sources.
