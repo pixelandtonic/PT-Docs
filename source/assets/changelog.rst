@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Assets 2.2.2
+---------------
+Released on October 10, 2013
+
+* Fixed an issue where Asset data in Matrix rows saved before Assets 2.2 could not be deleted.
+
 Assets 2.2.1
 ----------------------
 Released on October 9, 2013
