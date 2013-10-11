@@ -7,6 +7,7 @@ Assets 2.2.2
 Released on October 10, 2013
 
 * Fixed an issue where Asset data in Matrix rows saved before Assets 2.2 could not be deleted.
+* Fixed an issue with Matrix, where a fresh install of Assets would not work with Matrix.
 
 Assets 2.2.1
 ----------------------
