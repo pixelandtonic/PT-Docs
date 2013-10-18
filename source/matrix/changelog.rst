@@ -7,6 +7,7 @@ Released on October 9, 2013
 
 * Fixed a PHP error that could occur when a new File cell was saved for the first time.
 * Fixed MySQL errors that could occur when upgrading Matrix to a newer version.
+* The File cell type is now compatible with Safecrackeras well, not only Channel Form.
 
 Matrix 2.5.8
 ----------------------
