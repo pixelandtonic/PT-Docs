@@ -5,10 +5,10 @@ Ignore files and folders
 -------------------------
 
 ``assets_ignore_file_patterns``
-    An array of regular expressions that desribe file names that should be excluded from indexing. This prevents uploading a file that matches any of these in the Assets file manager.
+    An array of regular expressions that describe file names that should be excluded from indexing. This prevents uploading a file that matches any of these in the Assets file manager.
 
 ``assets_ignore_folder_patterns``
-    An array of regular expressions that desribe folder names that should be excluded from indexing. This prevents creating a folder with a name that matches any of these in the Assets file manager.
+    An array of regular expressions that describe folder names that should be excluded from indexing. This prevents creating a folder with a name that matches any of these in the Assets file manager.
 
 Recent upload duration
 ------------------------
