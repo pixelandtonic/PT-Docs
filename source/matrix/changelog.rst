@@ -3,12 +3,12 @@ Changelog
 
 Matrix 2.5.9
 ----------------------
-Released on October 9, 2013
+Released on October 29, 2013
 
-* Fixed a PHP error that could occur when 24-hour time format would be used on Date cells.
+* Fixed a PHP error that could occur when 24-hour time format was used on Date cells.
 * Fixed a PHP error that could occur when a new File cell was saved for the first time.
 * Fixed MySQL errors that could occur when upgrading Matrix to a newer version.
-* The File cell type is now compatible with Safecrackeras well, not only Channel Form.
+* Fixed legacy compatibility between the File celltype and Safecracker.
 
 Matrix 2.5.8
 ----------------------

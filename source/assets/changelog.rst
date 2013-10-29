@@ -4,14 +4,13 @@ Changelog
 
 Assets 2.2.2
 ---------------
-Released on October 10, 2013
+Released on October 29, 2013
 
-* Added ``assets_ignore_folders_patterns`` and ``assets_ignore_files_patterns`` config settings.
-* Reduced the number of queries needed when rendering templates including Assets.
-* Fixed an issue where Asset data in Matrix rows saved before Assets 2.2 could not be deleted.
-* Fixed an issue with Matrix, where a fresh install of Assets would not work with Matrix.
-* Fixed an issue where Assets would not work with Better Workflow when within a Content Elements field. This requires Content Elements 1.6.3.
-* Fixed an issue where Assets would not work in Matrix in Channel Forms or Safecracker.
+* Added ‘assets_ignore_folders_patterns’ and ‘assets_ignore_files_patterns’ config settings.
+* Reduced the number of queries needed when rendering templates with Assets tags.
+* Fixed some compatibility issues with Matrix.
+* Fixed some compatibility issues with Better Workflow + Content Elements (requires Content Elements 1.6.3).
+* Fixed some compatibility issues with Channel Forms/Safecracker.
 
 Assets 2.2.1
 ----------------------

@@ -1,81 +1,68 @@
 Config Settings
 ===================
 
-Ignore files and folders
--------------------------
-
-``assets_ignore_file_patterns``
-    An array of regular expressions that describe file names that should be excluded from indexing. This prevents uploading a file that matches any of these in the Assets file manager.
-
-``assets_ignore_folder_patterns``
-    An array of regular expressions that describe folder names that should be excluded from indexing. This prevents creating a folder with a name that matches any of these in the Assets file manager.
-
-Recent upload duration
-------------------------
-
-``assets_recent_upload_hours``
-    This determines the number of hours for Recent Uploads source history.
-
-Javascript compression
---------------
-``assets_use_uncompressed_js``
-    Settings this to ``true`` will make Assets use the uncompressed version of it's Javascripts, which is useful for debugging issues.
-
-Site URL
---------------
-
-``assets_site_url``
-    This setting is used for routing Assets Ajax requests, in case the Site Root URL setting should not be used. For example, if a .htaccess redirect is taking place, depending on server configuration, that might not forward POST data, so you would set ``assets_site_url`` setting to such a value, that it doesn't get redirected.
-
-Control Panel path.
---------------------
-
-``assets_cp_path``
-    This setting is used when you are using relative paths in EE Upload Filedir paths. This should point to the folder that contains your admin.php file. This is needed so that Assets can resolve paths for files when it knows only the path of the admin.php file.
-
-Caching remote images
------------------------
+Assets checks for several config settings in system/expressionengine/config/config.php, which give you control over various aspects of its behavior.
 
 ``assets_cache_remote_images``
-    By default set to "yes", this makes Assets cache the images from external sources for generating the various sizes used in Assets File manager much faster. Setting this to "no" will cause Assets to download the file every time a new size needs to be created.
+    Whether Assets should cache the images stored on Amazon S3, Rackspace Cloud Storage, and Google Cloud Files, to speed up the creation of thumbnails. (Default is ``'yes'``.)
 
-Source settings
------------------
+``assets_cp_path``
+    The path Assets should prepend to your EE upload directory paths in the event that they are relative from the CP but not from index.php.
 
-You can use ``assets_source_settings`` to override any external source settings set in the CP. The following options are available.
+    This should be a relative path from your index.php file to the direcotry that you access the CP from (e.g. “``./system/``”).
 
-Amazon S3 and Google Cloud
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``assets_ignore_file_patterns``
+    An array of regular expressions that describe file names that should be excluded from indexing. These are also taken into account when uploading and renaming files.
 
-``access_key_id`` and ``secret_access_key``
-    Amazon S3 or Google Cloud key pair to connect to your account.
+``assets_ignore_folder_patterns``
+    An array of regular expressions that describe folder names that should be excluded from indexing. These are also taken into account when creating or renaming subfolders.
 
-``bucket``
-    The bucket to use.
+``assets_recent_upload_hours``
+    The number of hours back Assets should look for recently uploaded files. (Default is ``24``.)
 
-``location`` 
-    The region for the bucket.
+``assets_site_url``
+    The URL that Assets should route its Ajax requests to. (By default Assets will use the URL defined in the Admin → General Administration → “URL to the root directory of your site” setting.)
 
-``url_prefix``
-    URL Prefix to use.
+    This is usedful if your .htaccess file is redirecting Assets’ Ajax requests, thus dropping their POST data and preventing Assets from functioning properly. Setting it to “``/index.php`` is usually a safe way around that.
 
-``subfolder``
-    Subfolder to use for your source.
+``assets_source_settings``
+    Overrides Amazon S3, Rackspace Cloud Storage, and Gogole Cloud Files source settings.
 
-Rackspace Cloud
-~~~~~~~~~~~~~~~~~~
+    The syntax of this setting is the same as EE’s `upload_preferences <http://ellislab.com/expressionengine/user-guide/cp/content/files/file_upload_preferences.html#overriding-upload-paths-and-urls-using-configuration-variables>`_ config setting.
 
-``username`` and ``api_key``
-    Amazon S3 or Google Cloud key pair to connect to your account.
+    The available setting keys are:
 
-``container``
-    The container to use.
+        * Amazon S3 and Google Cloud Files
+            ``access_key_id`` and ``secret_access_key``
+                Amazon S3 or Google Cloud key pair to connect to your account.
 
-``location`` 
-    The account location to use.
+            ``bucket``
+                The bucket to use.
 
-``url_prefix``
-    URL Prefix to use.
+            ``location``
+                The region for the bucket.
 
-``subfolder``
-    Subfolder to use for your source.
+            ``url_prefix``
+                URL Prefix to use.
+
+            ``subfolder``
+                Subfolder to use for your source.
+
+        * Rackspace Cloud
+            ``username`` and ``api_key``
+                Amazon S3 or Google Cloud key pair to connect to your account.
+
+            ``container``
+                The container to use.
+
+            ``location``
+                The account location to use.
+
+            ``url_prefix``
+                URL Prefix to use.
+
+            ``subfolder``
+                Subfolder to use for your source.
+
+``assets_use_uncompressed_js``
+    Whether Assets should serve uncompressed Javascript files. (Default is ``false``).
