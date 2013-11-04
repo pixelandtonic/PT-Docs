@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Matrix 2.5.10
+----------------------
+Released on November 4th, 2013
+
+* Fixed a PHP error that would prevent the File cell data from saving.
+
 Matrix 2.5.9
 ----------------------
 Released on October 29, 2013
