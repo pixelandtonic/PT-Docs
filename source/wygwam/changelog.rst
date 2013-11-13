@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Wygwam 3.2.2
+-------------------
+Released on Nov 13, 2013
+
+* Added new ``wygwam_before_display``, ``wygwam_before_save``, and ``wygwam_before_replace`` extension hooks.
+
 Wygwam 3.2.1
 -------------------
 Released on Oct 2, 2013
