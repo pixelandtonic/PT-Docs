@@ -7,3 +7,4 @@ Templating
    terminology
    module/index
    field
+   channel_form
