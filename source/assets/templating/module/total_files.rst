@@ -6,6 +6,6 @@ You can get the total number of files matching certain parameters using ``{exp:a
 Tag Parameters
 --------------
 
-``{exp:assets:files}`` supports the following parameters:
+``{exp:assets:total_files}`` supports the following parameters:
 
 .. include:: /templating/_includes/file_params.rst
