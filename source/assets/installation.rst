@@ -8,6 +8,10 @@ Make sure your system meets the minimum requirements:
 
 -  `ExpressionEngine <http://ellislab.com/expressionengine/>`_ 2.4 or
    later
+-  If you will be using cloud based services with Assets (Amazon S3,
+   Rackspace Cloud Files, Google Cloud Storage), you will need the
+   `PHP cURL extension <http://us1.php.net/curl>`_ and
+   `libcurl <http://curl.haxx.se/libcurl/>`_ installed
 
 Installing Assets
 -----------------
