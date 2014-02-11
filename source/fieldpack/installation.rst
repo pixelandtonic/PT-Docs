@@ -62,3 +62,5 @@ Here are all of the folders that are safe to delete once Field Pack 2 is install
  * themes/third_party/pt_list
  * themes/third_party/pt_pill
  * themes/third_party/pt_switch
+
+ If you're using Expression Engine 2.7 or later, you might have to delete these folders before you're able to install the Field Pack 2. Don't worry, though - you will not lose your data!
