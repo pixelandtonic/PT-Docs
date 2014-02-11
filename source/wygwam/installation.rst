@@ -6,7 +6,7 @@ Requirements
 
 Make sure your system meets the minimum requirements:
 
--  `ExpressionEngine <http://ellislab.com/expressionengine/>`_ 2.4 or
+-  `ExpressionEngine <http://ellislab.com/expressionengine/>`_ 2.7 or
    later
 
 Installing Wygwam
