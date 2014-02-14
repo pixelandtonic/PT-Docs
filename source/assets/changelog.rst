@@ -1,6 +1,21 @@
-
 Changelog
 =========
+
+Assets 2.2.3
+---------------
+Released on February 14, 2013
+
+* Added support for uploading multiple files at once from a file input in a Channel/Safecracker form.
+* Added namespaces to the third party libraries to avoid conflicts with other add-ons.
+* The ‘assets_ignore_folder_patterns’ and ‘assets_ignore_file_patterns’ config settings no longer require slashes in the array values.
+* Fixed a bug that allowed users to rename folders to a disallowed folder name.
+* Fixed a bug that prevented some Assets field tags from getting parsed when used within Grid fields.
+* Fixed a bug where EE upload directorty filesize restrictions were not enforced for simple front-end uploads.
+* Fixed a bug that could cause Assets to crash when attempting to upgrade itself from 1.1.5 or earlier.
+* Fixed a compatibility issue when using Assets within Grid within Low Variables.
+* Fixed the table view for Assets fields within Grid fields.
+* Fixed an issue where date/times could be saved incorrectly when editing an asset’s metadata.
+* Fixed a MySQL error that could occur when MySQL was operating in strict mode.
 
 Assets 2.2.2
 ---------------
