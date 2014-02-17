@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Assets 2.2.4
+---------------
+Released on February 17, 2013
+
+* Fixed a bug that broke bucket-fetching for S3 and Google Cloud sources.
+
 Assets 2.2.3
 ---------------
 Released on February 14, 2013
