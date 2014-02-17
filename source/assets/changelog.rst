@@ -3,13 +3,13 @@ Changelog
 
 Assets 2.2.4
 ---------------
-Released on February 17, 2013
+Released on February 17, 2014
 
 * Fixed a bug that broke bucket-fetching for S3 and Google Cloud sources.
 
 Assets 2.2.3
 ---------------
-Released on February 14, 2013
+Released on February 14, 2014
 
 * Added support for uploading multiple files at once from a file input in a Channel/Safecracker form.
 * Added namespaces to the third party libraries to avoid conflicts with other add-ons.
