@@ -1,6 +1,15 @@
 Changelog
 =========
 
+Wygwam 3.3
+-------------------
+Released on Mar 12, 2014
+
+* Added Grid compatibility.
+* Updated CKEditor to 4.3.3.
+* Added support for the dialog_noConfirmCancel, scayt_autoStartup, scayt_contextCommands, scayt_contextMenuItemsOrder, scayt_maxSuggestions, scayt_moreSuggestions, and scayt_sLang advanced settings in the config editor.
+* Fixed a bug where the CKEDITOR.editorConfig() function in themes/third_party/wygwam/lib/ckeditor/config.js wasn’t getting called early enough to make significatnt changes.
+
 Wygwam 3.2.2
 -------------------
 Released on Nov 13, 2013
