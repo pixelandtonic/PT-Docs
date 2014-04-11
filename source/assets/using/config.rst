@@ -3,6 +3,9 @@ Config Settings
 
 Assets checks for several config settings in system/expressionengine/config/config.php, which give you control over various aspects of its behavior.
 
+``assets_allow_indexing``
+    If set to ``yes``, ``y`` or ``1``, any user with access to Assets will be able to access source indexing, not only superadmins.
+    
 ``assets_cache_remote_images``
     Whether Assets should cache the images stored on Amazon S3, Rackspace Cloud Storage, and Google Cloud Files, to speed up the creation of thumbnails. (Default is ``'yes'``.)
 

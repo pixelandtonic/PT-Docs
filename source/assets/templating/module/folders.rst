@@ -59,3 +59,6 @@ Variable Tags
 	``{exp:assets:folders}`` tag pair’s template code, including the
 	``{subfolders}`` tag. This provides a way to recursively output your
 	entire folder tree (see example below).
+
+``{parent_id}
+    The ID of the current folder's parent folder.

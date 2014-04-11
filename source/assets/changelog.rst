@@ -1,6 +1,27 @@
 Changelog
 =========
 
+Assets 2.3
+-------------
+Released on April 15, 2014
+
+* Added support for Rackspace Auth API to v2, which allows for multiple regions per user.
+* Add cache duration option for Amazon S3 sources.
+* Add the ability for Amazon S3 sources to purge files from CloudFront.
+* Added support for "|" separator in keyword parameter working as "OR" operator.
+* Added parent_id parameter to ``{exp:assets:folders}`` tag.
+* Added {parent_id} variable to ``{exp:assets:folders}`` tag.
+* Added ``{exp:assets:folder}`` tag to get information about a specific folder.
+* Added "assets_allow_indexing" setting that allows indexing for non-superadmins.
+* Assets_lib file is now properly capitalised.
+* Fixed a bug that broke Assets in a Grid or a Matrix field would not work within Low Variables.
+* Fixed a bug where missing files would break Assets update to Assets 2
+* Fixed a bug where Amazon S3 sources would not work on PHP 5.5
+* Fixed a bug where dates were displayed incorrectly in table view.
+* Fixed an issue where sometimes Assets thumbnails would not be cached.
+* Fixed a bug where some Rackspace Source URLs would not work.
+* Fixed an issue where Assets could run out of memory when browsing large folders.
+
 Assets 2.2.4
 ---------------
 Released on February 17, 2014
