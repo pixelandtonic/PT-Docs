@@ -12,6 +12,8 @@ Released on April 15, 2014
 * Added parent_id parameter to ``{exp:assets:folders}`` tag.
 * Added {parent_id} variable to ``{exp:assets:folders}`` tag.
 * Added ``{exp:assets:folder}`` tag to get information about a specific folder.
+* Added support for listing files from all folders for ``{exp:assets:files}``
+* Added support for sorting by ufile ids for ``{exp:assets:files}``
 * Added "assets_allow_indexing" setting that allows indexing for non-superadmins.
 * Assets_lib file is now properly capitalised.
 * Fixed a bug that broke Assets in a Grid or a Matrix field would not work within Low Variables.

@@ -25,7 +25,7 @@ Tag Parameters
     this parameter in the format of either
     “``{filedir_X}optional/subfolder/path``” or
     “``{source_X}optional/subfolder/path``”. You may pass multiple
-    IDs, delimited by pipes (‘``|``’).
+    IDs, delimited by pipes (‘``|``’). You can also use “any” or “*” to list from all folders.
 
 ``folder_id``
     The ID of the folder containing the files you wish to output. You
@@ -46,6 +46,7 @@ Tag Parameters
 ``orderby``
     Orders the files by a specified property. Possible values include:
 
+    - ``file_id``
     -  ``name``
     -  ``folder``
     -  ``date``
