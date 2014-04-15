@@ -6,7 +6,7 @@ Assets 2.3
 Released on April 15, 2014
 
 * Added support for Rackspace Auth API to v2, which allows for multiple regions per user.
-* Add cache duration option for Amazon S3 sources.
+* Add cache duration option for Amazon S3 and Google Cloud Storage sources.
 * Add the ability for Amazon S3 sources to purge files from CloudFront.
 * Added support for "|" separator in keyword parameter working as "OR" operator.
 * Added parent_id parameter to ``{exp:assets:folders}`` tag.
