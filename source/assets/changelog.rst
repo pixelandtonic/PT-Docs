@@ -5,23 +5,23 @@ Assets 2.3
 -------------
 Released on April 15, 2014
 
-* Added support for Rackspace Auth API to v2, which allows for multiple regions per user.
-* Add cache duration option for Amazon S3 and Google Cloud Storage sources.
-* Add the ability for Amazon S3 sources to purge files from CloudFront.
-* Added support for "|" separator in keyword parameter working as "OR" operator.
-* Added parent_id parameter to ``{exp:assets:folders}`` tag.
-* Added {parent_id} variable to ``{exp:assets:folders}`` tag.
-* Added ``{exp:assets:folder}`` tag to get information about a specific folder.
-* Added support for listing files from all folders for ``{exp:assets:files}``
-* Added support for sorting by ufile ids for ``{exp:assets:files}``
-* Added "assets_allow_indexing" setting that allows indexing for non-superadmins.
-* Assets_lib file is now properly capitalised.
-* Fixed a bug that broke Assets in a Grid or a Matrix field would not work within Low Variables.
-* Fixed a bug where missing files would break Assets update to Assets 2
-* Fixed a bug where Amazon S3 sources would not work on PHP 5.5
+* Added support for Rackspace’s authentication API 2.0, which allows for multiple regions per user.
+* Added a Cache Duration setting for Amazon S3 and Google Cloud Storage sources.
+* Added the ability for Amazon S3 sources to purge files from CloudFront.
+* Added an ‘assets_allow_indexing’ config setting that allows indexing for non-superadmins.
+* Added an {exp:assets:folder} tag to get information about a specific folder.
+* Added a ‘parent_id’ param to {exp:assets:folders}.
+* Added a {parent_id} variable to {exp:assets:folders}.
+* {exp:assets:files}’s ‘keywords’ param now support passing multiple keywords separated by “|”s.
+* It is now possible to list files from all folders with {exp:assets:files}.
+* Added support for sorting by file IDs with {exp:assets:files}.
+* Fixed a bug where the Assets_lib.php file didn’t have proper capitalization in the filename.
+* Fixed a bug that broke Assets in a Grid or a Matrix field within Low Variables.
+* Fixed a bug where missing files could break Assets 1.x to 2.x updates.
+* Fixed a bug where Amazon S3 sources would not work on PHP 5.5.
 * Fixed a bug where dates were displayed incorrectly in table view.
+* Fixed a bug where some Rackspace source URLs would not work.
 * Fixed an issue where sometimes Assets thumbnails would not be cached.
-* Fixed a bug where some Rackspace Source URLs would not work.
 * Fixed an issue where Assets could run out of memory when browsing large folders.
 
 Assets 2.2.4
