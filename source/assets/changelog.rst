@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Assets 2.3.1
+---------------
+Released on April 18, 2014
+
+* Fixed a compatibility issue with other fieldtypes, such as Wygwam and Photo Frame.
+
 Assets 2.3
 -------------
 Released on April 15, 2014
