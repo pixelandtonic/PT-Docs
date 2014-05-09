@@ -52,6 +52,7 @@ The following shortcut tags are available:
 -  ``{my_assets_field:url}``
 -  ``{my_assets_field:server_path}``
 -  ``{my_assets_field:subfolder}``
+-  ``{my_assets_field:source_subfolder}``
 -  ``{my_assets_field:filename}``
 -  ``{my_assets_field:extension}``
 -  ``{my_assets_field:date_modified}``

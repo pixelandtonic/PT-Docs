@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Assets 2.3.2
+------------
+Released on May 9, 2014
+
+* Added the ``{assets_field:source_subfolder}`` shortcut tag.
+* Fixed a bug where Assets would break when ordering files by date in the templates.
+
 Assets 2.3.1
 ---------------
 Released on April 18, 2014

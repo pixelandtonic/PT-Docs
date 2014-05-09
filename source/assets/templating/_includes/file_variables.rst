@@ -14,7 +14,7 @@
     The subfolder that the file lives in, if any.
 
 ``{source_subfolder}``
-    The subfolder within the sourcethat the file lives in, if any.
+    The value of the Subfolder setting on the file’s source, if there is one.
 
 ``{folder_id}``
     Id of the folder containing the file.
