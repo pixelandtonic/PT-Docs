@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Wygwam 3.3.1
+-------------------
+Released on May 9, 2014
+
+* Updated CKEditor to 4.3.5
+* Fixed a caching issue when Wygwam is set to select images from Assets, and an image is replaced within the Assets selection sheet.
+
 Wygwam 3.3
 -------------------
 Released on Mar 12, 2014
