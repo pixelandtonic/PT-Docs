@@ -1,5 +1,5 @@
 ``assets_delete_folder`` Hook
-========================
+================================
 
 This hook is called right before deleting a folder in Assets. 
 

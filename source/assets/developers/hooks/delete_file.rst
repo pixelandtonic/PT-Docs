@@ -1,5 +1,5 @@
 ``assets_delete_file`` Hook
-========================
+===============================
 
 This hook is called before deleting a file in Assets. 
 

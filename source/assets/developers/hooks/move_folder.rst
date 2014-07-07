@@ -1,5 +1,5 @@
 ``assets_move_folder`` Hook
-========================
+=============================
 
 This hook is called right before moving a folder in Assets. 
 

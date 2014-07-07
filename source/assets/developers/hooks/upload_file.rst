@@ -1,5 +1,5 @@
 ``assets_upload_file`` Hook
-========================
+============================
 
 This hook is called after uploading a file in Assets.
 

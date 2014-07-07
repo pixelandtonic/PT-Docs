@@ -17,6 +17,8 @@ Please note, that none of these hooks return any data.
    rename_file
    move_file
    delete_file
+   delete_file_selections
    file_meta_save
+   after_file_meta_save
    
    

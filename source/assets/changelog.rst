@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Assets 2.4
+-----------
+Released on July 8th, 2014
+
+* Added third party search compatibility.
+* Added ``assets_delete_file_selections`` and ``assets_after_file_meta_save`` hooks.
+* Fixed a bug where using ``{exp:assets:files}`` would throw a notice on some systems.
+* Fixed a bug where Assets sometimes would not work with Content Elements
+* Fixed a bug where Assets sometimes would not generate JSON on Expression Engine 2.5.5 and older.
+* Fixed a bug where PHP 5.3 would be required to generate thumbnails for Assets files.
+
 Assets 2.3.2
 ------------
 Released on May 9, 2014
@@ -22,12 +33,12 @@ Released on April 15, 2014
 * Added a Cache Duration setting for Amazon S3 and Google Cloud Storage sources.
 * Added the ability for Amazon S3 sources to purge files from CloudFront.
 * Added an ‘assets_allow_indexing’ config setting that allows indexing for non-superadmins.
-* Added an {exp:assets:folder} tag to get information about a specific folder.
-* Added a ‘parent_id’ param to {exp:assets:folders}.
-* Added a {parent_id} variable to {exp:assets:folders}.
-* {exp:assets:files}’s ‘keywords’ param now support passing multiple keywords separated by “|”s.
-* It is now possible to list files from all folders with {exp:assets:files}.
-* Added support for sorting by file IDs with {exp:assets:files}.
+* Added an ``{exp:assets:folder}`` tag to get information about a specific folder.
+* Added a ‘parent_id’ param to ``{exp:assets:folders}``.
+* Added a {parent_id} variable to ``{exp:assets:folders}``.
+* ``{exp:assets:files}``’s ‘keywords’ param now support passing multiple keywords separated by “|”s.
+* It is now possible to list files from all folders with ``{exp:assets:files}``.
+* Added support for sorting by file IDs with ``{exp:assets:files}``.
 * Fixed a bug where the Assets_lib.php file didn’t have proper capitalization in the filename.
 * Fixed a bug that broke Assets in a Grid or a Matrix field within Low Variables.
 * Fixed a bug where missing files could break Assets 1.x to 2.x updates.

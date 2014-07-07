@@ -1,5 +1,5 @@
 ``assets_rename_folder`` Hook
-========================
+==============================
 
 This hook is called right before renaming a folder in Assets. 
 

@@ -1,5 +1,5 @@
 ``assets_rename_file`` Hook
-========================
+============================
 
 This hook is called before renaming the file.
 
