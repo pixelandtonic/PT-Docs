@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Matrix 2.5.11
+--------------
+Released on July 8th, 2014
+
+* Matrix now respects the EE's ``time_format`` config setting.
+* Changed the way Matrix parses data, so that ``row_order`` is no longer necessary, when simply adding new rows via front-end forms.
+* Fixed a few leftover EE 2.6 compatibilty bugs for Matrix Date cell.
+* Fixed a bug where ``field_row_count`` would not work correctly if used in Matrix search results.
+* Fixed a bug where Matrix Date and Number cells could throw an error on some servers with strict MySQL settings.
+* FIxed a bug where Matrix would lose formatting for RTE cells.
+
 Matrix 2.5.10
 ----------------------
 Released on November 4th, 2013
