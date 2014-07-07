@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Playa 4.5
+----------
+Released on July 8th, 2014
+
+* Added support for Content Elements.
+* Added support for ``disable="playa"``.
+* Fixed an issue where entries could appear multiple times in Playa selection panes.
+* Fixed a bug where all categories would appear in filters, not just those selected for Playa field.
+* Fixed an error where Playa could work incorrectly on some MSM sites.
+* Fixed an error that would sometimes prevent Playa from working with Zoo Visitor correctly.
+
 Playa 4.4.5
 -------------------
 Released on July 23, 2013

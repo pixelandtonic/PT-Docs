@@ -8,3 +8,4 @@ Templating
    module/index
    field
    channel_form
+   content_elements
