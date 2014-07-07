@@ -6,7 +6,7 @@ Assets 2.4
 Released on July 8th, 2014
 
 * Added third party search compatibility.
-* Added ``assets_delete_file_selections`` and ``assets_after_file_meta_save`` hooks.
+* Added ``assets_delete_file_selections``, ``assets_after_file_meta_save`` and ``assets_ee_subfolder_upload`` hooks.
 * Fixed a bug where using ``{exp:assets:files}`` would throw a notice on some systems.
 * Fixed a bug where Assets sometimes would not work with Content Elements
 * Fixed a bug where Assets sometimes would not generate JSON on Expression Engine 2.5.5 and older.
