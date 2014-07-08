@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Wygwam 3.3.2
+-------------------
+Released on July 8, 2014
+
+* Added "wygwam_prevent_url_conversion" config setting that prevents URL conversion to Wygwam tags.
+
 Wygwam 3.3.1
 -------------------
 Released on May 9, 2014
