@@ -11,6 +11,7 @@ Released on July 8th, 2014
 * Fixed a bug where Assets sometimes would not work with Content Elements.
 * Fixed a bug where Assets sometimes would not generate JSON on Expression Engine 2.5.5 and older.
 * Fixed a bug where PHP 5.3 would be required to generate thumbnails for Assets files.
+* Fixed a bug where Assets would not work with Grid field if more than one file was selected.
 
 Assets 2.3.2
 ------------
