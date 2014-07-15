@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Playa 4.5
+-------------------
+Released on July 15, 2014
+
+* Added Content Elements compatibility.
+* Added support for ``disable="playa"`` on ``{exp:channel:entries}`` tags.
+* Fixed a bug where entries could appear multiple times in Playa selection panes.
+* Fixed a bug where all categories would appear in filters, not just those selected for Playa field.
+* Fixed a bug where Playa could work incorrectly on some MSM sites.
+* Fixed a compatibility issue with Zoo Visitor.
+
 Playa 4.4.5
 -------------------
 Released on July 23, 2013
