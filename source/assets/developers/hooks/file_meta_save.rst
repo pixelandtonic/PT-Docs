@@ -1,5 +1,5 @@
 ``assets_file_meta_save`` Hook
-========================
+===============================
 
 This hook is called before saving the meta-data of a file.
 

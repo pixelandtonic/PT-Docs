@@ -1,5 +1,5 @@
 ``assets_create_folder`` Hook
-========================
+===============================
 
 This hook is called right after creating a new folder in Assets. 
 

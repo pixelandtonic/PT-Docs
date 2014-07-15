@@ -1,5 +1,5 @@
 ``assets_replace_file`` Hook
-========================
+=============================
 
 This hook is called right before replacing a file during a naming conflict in Assets.
 

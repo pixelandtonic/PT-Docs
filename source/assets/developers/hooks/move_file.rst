@@ -1,5 +1,5 @@
 ``assets_move_file`` Hook
-========================
+===============================
 
 This hook is called before moving the file.
 

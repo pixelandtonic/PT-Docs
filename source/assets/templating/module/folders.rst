@@ -60,5 +60,5 @@ Variable Tags
 	``{subfolders}`` tag. This provides a way to recursively output your
 	entire folder tree (see example below).
 
-``{parent_id}
+``{parent_id}``
     The ID of the current folder's parent folder.
