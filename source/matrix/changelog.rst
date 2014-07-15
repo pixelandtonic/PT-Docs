@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Matrix 2.6
+----------------------
+Released on July 15, 2014
+
+* Matrix now respects the EE’s ``time_format`` config setting.
+* Changed the way Matrix parses data, so that ``row_order`` inputs are no longer necessary when simply adding new rows via front-end forms.
+* Fixed compatibility issues with EE 2.6.
+* Fixed a bug where ``{field_row_count}`` would not work correctly if used in search results.
+* Fixed a bug where RTE cells colud lose their formatting.
+* Fixed MySQL errors that could occur when MySQL was operating in strict mode.
+
 Matrix 2.5.10
 ----------------------
 Released on November 4th, 2013
