@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Playa 4.5.1
+-------------------
+Released on July 16, 2014
+
+* Added {elenment_name} tag for Content Elements tags.
+* Fixed a bug where setting Playa to show only editable entries would have no effect.
+
 Playa 4.5
 -------------------
 Released on July 15, 2014
