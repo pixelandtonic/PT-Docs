@@ -3,10 +3,11 @@ Changelog
 
 Playa 4.5.1
 -------------------
-Released on July 16, 2014
+Released on July 17, 2014
 
 * Added {elenment_name} tag for Content Elements tags.
 * Fixed a bug where setting Playa to show only editable entries would have no effect.
+* Fix an issue where Playa would trigger a fatal error if more than once Content Element fields were present in a channel.
 
 Playa 4.5
 -------------------
