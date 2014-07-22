@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Matrix 2.6.1
+-------------
+Release on July 22, 2014
+
+* Fixed an issue where Number cell would not allow decimal fractions.
+
 Matrix 2.6
 ----------------------
 Released on July 15, 2014
