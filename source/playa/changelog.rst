@@ -5,7 +5,7 @@ Playa 4.5.1
 -------------------
 Released on Aug 6, 2014
 
-* Added support for ``{elenment_name}`` variable tags in Content Elements field tag pairs.
+* Added support for ``{element_name}`` variable tags in Content Elements field tag pairs.
 * Added an icon for Content Elements.
 * Fixed a PHP fatal error that could occur if more than once Content Elements fields were present in a channel.
 * Fixed a bug where setting Playa to show only editable entries would have no effect.
