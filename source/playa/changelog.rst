@@ -1,9 +1,19 @@
 Changelog
 =========
 
+Playa 4.5.1
+-------------------
+Released on Aug 6, 2014
+
+* Added support for ``{elenment_name}`` variable tags in Content Elements field tag pairs.
+* Added an icon for Content Elements.
+* Fixed a PHP fatal error that could occur if more than once Content Elements fields were present in a channel.
+* Fixed a bug where setting Playa to show only editable entries would have no effect.
+* Fixed a bug where the Limit setting for Playa fields was missing.
+
 Playa 4.5
 -------------------
-Released on July 15, 2014
+Released on Jul 15, 2014
 
 * Added Content Elements compatibility.
 * Added support for ``disable="playa"`` on ``{exp:channel:entries}`` tags.
@@ -14,14 +24,14 @@ Released on July 15, 2014
 
 Playa 4.4.5
 -------------------
-Released on July 23, 2013
+Released on Jul 23, 2013
 
 * Fixed a PHP warning on Playa fields which had the Categories field setting set.
 * Security improvements.
 
 Playa 4.4.4
 -------------------
-Released on July 12, 2013
+Released on Jul 12, 2013
 
 * Added a new ‘playa_parse_relationships’ extension hook.
 * When outputting child entries with ``{exp:playa:children}`` that span across multiple entries/fields/Matrix rows/Matrix columns/Low Variables, Playa now keeps the child entries grouped together with other entries in the same Playa field by default.
