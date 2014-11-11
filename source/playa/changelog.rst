@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Playa 4.5.2
+-------------------
+Released on Nov 11, 2014
+
+* Fix a bug where single select Playa fields would break in Matrix.
+* Fix a bug where sorting was not applied to Playa fields with limit set.
+
 Playa 4.5.1
 -------------------
 Released on Aug 6, 2014
