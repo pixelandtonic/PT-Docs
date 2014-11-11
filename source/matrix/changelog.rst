@@ -3,7 +3,7 @@ Changelog
 
 Matrix 2.6
 ----------------------
-Released on July 15, 2014
+Released on Jul 15, 2014
 
 * Matrix now respects the EE’s ``time_format`` config setting.
 * Changed the way Matrix parses data, so that ``row_order`` inputs are no longer necessary when simply adding new rows via front-end forms.
@@ -14,13 +14,13 @@ Released on July 15, 2014
 
 Matrix 2.5.10
 ----------------------
-Released on November 4th, 2013
+Released on Nov 4th, 2013
 
 * Fixed a PHP error that would prevent File cells from saving properly.
 
 Matrix 2.5.9
 ----------------------
-Released on October 29, 2013
+Released on Oct 29, 2013
 
 * Fixed a PHP error that could occur when 24-hour time format was used on Date cells.
 * Fixed a PHP error that could occur when a new File cell was saved for the first time.
@@ -29,13 +29,13 @@ Released on October 29, 2013
 
 Matrix 2.5.8
 ----------------------
-Released on September 26, 2013
+Released on Sep 26, 2013
 
 * Fixed a PHP error that could occur when a File cell type was used in a Channel Form without being accompanied by a normal File field.
 
 Matrix 2.5.7
 ----------------------
-Released on September 25, 2013
+Released on Sep 25, 2013
 
 * The File cell type is now compatible with Channel Form.
 * When adding new rows via POST data, Matrix now takes care to add them after the existing rows.
@@ -47,7 +47,7 @@ Released on September 25, 2013
 
 Matrix 2.5.6
 ----------------------
-Released on July 12, 2013
+Released on Jul 12, 2013
 
 * Improved the EE entry revision support.
 * Improved the Better Workflow compatibility.
