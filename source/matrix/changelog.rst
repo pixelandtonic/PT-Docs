@@ -3,9 +3,11 @@ Changelog
 
 Matrix 2.6.1
 -------------
-Release on July 22, 2014
+Release on November 11, 2014
 
 * Fixed an issue where Number cell would not allow decimal fractions.
+* Fix a compatibility issue with Matrix and Channel Forms.
+* Fix a migration issue with EE1 and Fieldpack 2.
 
 Matrix 2.6
 ----------------------
