@@ -5,7 +5,7 @@ Assets checks for several config settings in system/expressionengine/config/conf
 
 ``assets_allow_indexing``
     If set to ``yes``, ``y`` or ``1``, any user with access to Assets will be able to access source indexing, not only superadmins.
-    
+
 ``assets_cache_remote_images``
     Whether Assets should cache the images stored on Amazon S3, Rackspace Cloud Storage, and Google Cloud Files, to speed up the creation of thumbnails. (Default is ``'yes'``.)
 
@@ -22,6 +22,9 @@ Assets checks for several config settings in system/expressionengine/config/conf
 
 ``assets_recent_upload_hours``
     The number of hours back Assets should look for recently uploaded files. (Default is ``24``.)
+
+``assets_show_modified_date``
+    If set to ``TRUE``, a Date Modified column will be shown in List view.
 
 ``assets_site_url``
     The URL that Assets should route its Ajax requests to. (By default Assets will use the URL defined in the Admin → General Administration → “URL to the root directory of your site” setting.)

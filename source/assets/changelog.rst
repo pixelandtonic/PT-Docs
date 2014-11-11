@@ -1,6 +1,21 @@
 Changelog
 =========
 
+Assets 2.5
+----------------------
+Released on Nov 11, 2014
+
+* It is now possible to upload new files to remote asset sources in Channel Forms.
+* Added an ‘assets_show_modified_date’ config setting. If set to true, Assets will include a Date Modified column in List View.
+* Fixed some bugs with converting existing fields into Assets fields.
+* Fixed an issue with files having different casings on systems with case-sensitive filesystems.
+* Fixed caching issues when using qqUploader via POST (for third party developers).
+* Fixed a bug where uploading to a Rackspace asset source would sometimes fail.
+* Fixed compatibility issues with Grid.
+* Fixed compatibility issues with Channel Form/Safecracker.
+* Fixed compatibility issues with Multi-Site Manager.
+* Fixed compatibility issues with Content Elements.
+
 Assets 2.4
 ----------------------
 Released on Jul 15, 2014
