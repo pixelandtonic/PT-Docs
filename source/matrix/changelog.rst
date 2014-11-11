@@ -1,6 +1,15 @@
 Changelog
 =========
 
+Matrix 2.6.1
+----------------------
+Released on Nov 11, 2014
+
+* Fixed a bug where Number cells would not allow decimal fractions.
+* Fixed a bug in the EE1 update migration.
+* Fixed compatibility issues with Matrix.
+* Fixed compatibility issues with Channel Form.
+
 Matrix 2.6
 ----------------------
 Released on Jul 15, 2014
