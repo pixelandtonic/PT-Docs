@@ -2,8 +2,8 @@ Changelog
 =========
 
 Assets 2.4
------------
-Released on July 15, 2014
+----------------------
+Released on Jul 15, 2014
 
 * Added Low Search and Solspace Super Search compatibility.
 * Added ``assets_delete_file_selections``, ``assets_after_file_meta_save`` and ``assets_ee_subfolder_upload`` hooks.
@@ -12,21 +12,21 @@ Released on July 15, 2014
 * Fixed a couple PHP errors that could occur in certain situations.
 
 Assets 2.3.2
-------------
+----------------------
 Released on May 9, 2014
 
 * Added the ``{assets_field:source_subfolder}`` shortcut tag.
 * Fixed a bug where Assets would break when ordering files by date in the templates.
 
 Assets 2.3.1
----------------
-Released on April 18, 2014
+----------------------
+Released on Apr 18, 2014
 
 * Fixed a compatibility issue with other fieldtypes, such as Wygwam and Photo Frame.
 
 Assets 2.3
--------------
-Released on April 15, 2014
+----------------------
+Released on Apr 15, 2014
 
 * Added support for Rackspace’s authentication API 2.0, which allows for multiple regions per user.
 * Added a Cache Duration setting for Amazon S3 and Google Cloud Storage sources.
@@ -48,14 +48,14 @@ Released on April 15, 2014
 * Fixed an issue where Assets could run out of memory when browsing large folders.
 
 Assets 2.2.4
----------------
-Released on February 17, 2014
+----------------------
+Released on Feb 17, 2014
 
 * Fixed a bug that broke bucket-fetching for S3 and Google Cloud sources.
 
 Assets 2.2.3
----------------
-Released on February 14, 2014
+----------------------
+Released on Feb 14, 2014
 
 * Added support for uploading multiple files at once from a file input in a Channel/Safecracker form.
 * Added namespaces to the third party libraries to avoid conflicts with other add-ons.
@@ -70,8 +70,8 @@ Released on February 14, 2014
 * Fixed a MySQL error that could occur when MySQL was operating in strict mode.
 
 Assets 2.2.2
----------------
-Released on October 29, 2013
+----------------------
+Released on Oct 29, 2013
 
 * Added ‘assets_ignore_folders_patterns’ and ‘assets_ignore_files_patterns’ config settings.
 * Reduced the number of queries needed when rendering templates with Assets tags.
@@ -81,13 +81,13 @@ Released on October 29, 2013
 
 Assets 2.2.1
 ----------------------
-Released on October 9, 2013
+Released on Oct 9, 2013
 
 * Fixed a MySQL error that could occur when saving entries.
 
 Assets 2.2
 ----------------------
-Released on October 9, 2013
+Released on Oct 9, 2013
 
 * Added Content Elements compatibility
 * Added Grid compatibility.
@@ -107,7 +107,7 @@ Released on October 9, 2013
 
 Assets 2.1.4
 ----------------------
-Released on July 12, 2013
+Released on Jul 12, 2013
 
 * Added a ``fixed_order`` param to ``{exp:assets:files}`` as an alternative to the ``file_id`` param, where the order of the file IDs determines the order of the output files.
 * Added support for ``$config['assets_cache_remote_images'] = 'no';``. If set, Assets will not cache images stored on remote sources.
