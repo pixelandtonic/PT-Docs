@@ -23,6 +23,9 @@ Assets checks for several config settings in system/expressionengine/config/conf
 ``assets_recent_upload_hours``
     The number of hours back Assets should look for recently uploaded files. (Default is ``24``.)
 
+``assets_show_modified_date``
+    Setting this to ``TRUE`` will show Date Modified as well in Assets table list view mode.
+
 ``assets_site_url``
     The URL that Assets should route its Ajax requests to. (By default Assets will use the URL defined in the Admin → General Administration → “URL to the root directory of your site” setting.)
 

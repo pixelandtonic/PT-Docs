@@ -1,6 +1,21 @@
 Changelog
 =========
 
+Assets 2.4.1
+-----------
+Released on November 11, 2014
+
+* Add support for upload to external sources via simple HTML upload.
+* Add assets_show_modified_date setting. If set to true, will display Date Modified in List View as well.
+* Fix some issues with simple HTML upload.
+* Fix some issues with migrating other field types to Assets field type.
+* Fix compatibility issues with Channel Forms and Safecracker.
+* Fix caching issues when using qqUploader via POST (for 3rd party developers).
+* Fix issues with EE File manager breaking, when MSM was used.
+* Fix a bug where uploading to a Rackspace source would sometimes fail.
+* Fix an issue with files having different casings on systems with case-sensitive filesystems.
+* Fix compatibility issues with Grid and Content Elements.
+
 Assets 2.4
 -----------
 Released on July 15, 2014
