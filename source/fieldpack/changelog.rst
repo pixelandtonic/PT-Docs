@@ -1,6 +1,17 @@
 Changelog
 =========
 
+Field Pack 2.2
+----------------------
+Released on Nov 11, 2014
+
+* Added support for ``{element_name}`` tags within Content Elements.
+* Added support for quotes in List item values.
+* Fixed compatibility issues with Low Variables.
+* Fixed compatibility issues iwth Content Elements.
+* Fixed ``{switch}`` tags.
+
+
 Field Pack 2.1.1
 ----------------------
 Released on Aug 27, 2013
