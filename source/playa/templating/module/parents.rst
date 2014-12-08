@@ -25,7 +25,7 @@ Tag Parameters
 ``var_prefix``
     Tells Playa to only parse variables that have a certain prefix. This is handy when you’re dealing with variable name conflicts, such as if you’re pulling in an entry with its own Playa tag.
 
-    Note: Playa sets the ``disable`` tag parameter to “``categories|category_fields|member_data|pagination``” by default. So if you want to display categories, member data, or pagination tags in your Playa tag pair, you’ll need to override that parameter.
+**Note:** Playa sets the ``disable`` tag parameter to “``categories|category_fields|member_data|pagination``” by default. So if you want to display categories, member data, or pagination tags in your Playa tag pair, you’ll need to override that parameter.
 
 
 Variable Tags
