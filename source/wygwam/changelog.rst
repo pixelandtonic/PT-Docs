@@ -1,9 +1,16 @@
 Changelog
 =========
 
+Wygwam 3.3.3
+-------------------
+Released on Dec 8, 2014
+
+* Updated CKEditor to 4.4.6
+* Fixed a compatibility issue with ExpressionEngine < 2.5.
+
 Wygwam 3.3.2
 -------------------
-Released on July 15, 2014
+Released on Jul 15, 2014
 
 * Added a “wygwam_prevent_url_conversion” config setting that prevents URL conversion to Wygwam tags.
 
