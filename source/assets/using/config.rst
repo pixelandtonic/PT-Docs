@@ -29,7 +29,9 @@ Assets checks for several config settings in system/expressionengine/config/conf
 ``assets_site_url``
     The URL that Assets should route its Ajax requests to. (By default Assets will use the URL defined in the Admin → General Administration → “URL to the root directory of your site” setting.)
 
-    This is useful if your .htaccess file is redirecting Assets’ Ajax requests, thus dropping their POST data and preventing Assets from functioning properly. Setting it to “``/index.php`` is usually a safe way around that.
+    This is useful if your .htaccess file is redirecting Assets’ Ajax requests, thus dropping their POST data and preventing Assets from functioning properly. Setting it to “``/index.php``” is usually a safe way around that.
+
+    Settings this to “``/index.php``” is also the most common fix to most MSM related issues in the CP.
 
 ``assets_source_settings``
     Overrides Amazon S3, Rackspace Cloud Storage, and Gogole Cloud Files source settings.
