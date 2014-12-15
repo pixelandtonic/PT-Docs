@@ -9,7 +9,7 @@ You can use the ``{exp:assets:folders}`` tag pair to loop through folders manage
         {exp:assets:folders}
             <li>
                 <a href="{path=assets/view/{folder_id}}">{folder_name}</a>
-                {if total_subfolders}
+                {if total_subfolders > 0}
                     <ul>
                         {subfolders}
                     </ul>
