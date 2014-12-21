@@ -227,7 +227,7 @@ The ``:total_rows`` tag returns the total number of rows within your Matrix fiel
 
 .. code-block:: html
 
-    {if my_matrix_field:total_rows >= 5}
+    {if {my_matrix_field:total_rows} >= 5}
         We’ve got a great lineup of {my_matrix_field:total_rows} speakers!
     {/if}
 

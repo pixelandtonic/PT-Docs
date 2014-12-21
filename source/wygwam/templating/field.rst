@@ -35,7 +35,7 @@ For use in conditionals. Returns “y” if your Wygwam field has a “Read More
 
     {my_wygwam_field:excerpt}
 
-    {if my_wygwam_field:has_excerpt}
+    {if {my_wygwam_field:has_excerpt}}
         <a href="{path='blog/full-posts/{url_title}'}">Read more...</a>
     {/if}
 
