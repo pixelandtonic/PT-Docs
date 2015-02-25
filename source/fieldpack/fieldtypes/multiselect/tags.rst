@@ -60,7 +60,7 @@ selected.
 
 .. code-block:: html
 
-    {if {my_multiselect_field:selected option="kittens"}}
+    {if '{my_multiselect_field:selected option="kittens"}'}
       <p>Kittens!!!</p>
     {/if}
 
