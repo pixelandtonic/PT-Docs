@@ -16,7 +16,7 @@ You can use the ``{exp:assets:folder}`` tag pair to get information about a fold
 Tag Parameters
 --------------
 
-``{exp:assets:folders}`` supports the following parameters:
+``{exp:assets:folder}`` supports the following parameters:
 
 ``folder``
     The path of the folder whose information you wish to output.
@@ -31,7 +31,7 @@ Tag Parameters
 Variable Tags
 -------------
 
-``{exp:assets:folders}`` supports the following variable tags:
+``{exp:assets:folder}`` supports the following variable tags:
 
 ``{folder_id}``
 	The ID that Assets has assigned to the current folder.
