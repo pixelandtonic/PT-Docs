@@ -5,6 +5,9 @@
 
     ``{url:manipulation_name}`` is also available, for outputting the URL to an image manipulation.
 
+``{revved_url}``
+    The revved URL to the file. The filename will be suffixed with a dot and the timestamp of when file was last modified. This will only work for files that are stored locally.
+
 ``{server_path}``
     The server path to the file.
 
