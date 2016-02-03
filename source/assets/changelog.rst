@@ -1,22 +1,22 @@
 Changelog
 =========
 
-Assets 2.5.1
--------------
-Released on Jul 15, 2015
+Assets 2.6
+----------------------
+Released on Aug 17, 2015
 
-* Added support for Grid in Channel Forms when using simple HTML upload.
-* Added support for external sources when using Matrix in Channel Forms with simple HTML upload.
+* Added support for uploading files to Assets columns within Grid fields in Channel Forms.
+* Added support for uploading files to Assets columns within Matrix fields in Channel Forms, configured to remote sources.
 * Added support for revving URLS with ``{asset:revved_url}`` for local files.
-* Added possibility to sort files by their title in templates.
+* Added support for sorting files by their titles in templates.
+* Added support for sorting files by their folders in templates.
+* Improved Content Elements compatibility.
+* Improved Low Variables + Grid compatibility.
 * Fixed an issue where sometimes it was not possible to resolve upload conflicts on remote sources.
 * Fixed an issue where getting the unformatted filesize was not possible when image manipulations were used.
-* Fixed an issue where it was not possible to use parameters when using shorthand tags with manipulations.
-* Fixed an error where it was not possible to sort files by their folders in templates.
-* Fixed an error with whitespaces in folder names on Rackspace sources.
-* Fixed a compatibility issue with Content Elements.
-* Fixed an issue with subfolder renaming on external sources when subfolder setting was in use.
-* Fixed a compatibility issue with Low Variables and Grid.
+* Fixed an issue where it was not possible to pass parameters to manipulation shorthand tags.
+* Fixed an issue with whitespaces in folder names on Rackspace sources.
+* Fixed an issue with subfolder renaming on external sources, when the Subfolder source setting was set.
 
 Assets 2.5
 ----------------------
