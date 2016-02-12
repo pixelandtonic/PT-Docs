@@ -1,6 +1,15 @@
 Changelog
 =========
 
+Wygwam 4.0
+-------------------
+Released on Feb 3, 2016
+
+* EE3 compatibility (requires 3.1 or later)
+* Updated CKEditor to 4.5.6
+* Dropped EE2 compatibility
+* Dropped CKFinder support
+
 Wygwam 3.3.3
 -------------------
 Released on Dec 8, 2014
