@@ -6,8 +6,9 @@ Requirements
 
 Make sure your system meets the minimum requirements:
 
--  `ExpressionEngine <http://ellislab.com/expressionengine/>`_ 2.7 or
-   later
+-  `ExpressionEngine <http://ellislab.com/expressionengine/>`_ 3.1 or
+   later (An EE 2-compatible version is available on Devot:ee as a
+   legacy download)
 
 Installing Wygwam
 -----------------
