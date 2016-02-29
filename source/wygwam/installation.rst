@@ -12,21 +12,18 @@ Make sure your system meets the minimum requirements:
 Installing Wygwam
 -----------------
 
-#. Upload the ee2/third_party/wygwam folder to
-   system/expressionengine/third_party/
-#. Upload the themes/third_party/wygwam folder to themes/third_party/
-#. Install the module in Add-Ons → Modules
-#. While installing, choose to install the fieldtype and extension as
-   well
+#. Upload the system/user/addons/wygwam folder to system/user/addons/
+#. Upload the themes/user/wygwam/wygwam folder to themes/user/
+#. Go to Developer Tools → Add-On Manager and click the “Install”
+   button next to “Wygwam” in the Third Party Add-Ons section
 
 Updating Wygwam
 ---------------
 
-#. Upload the ee2/third_party/wygwam folder to
-   system/expressionengine/third_party/, overwriting the old one
-#. Upload the themes/third_party/wygwam folder to themes/third_party/,
+#. Upload the system/user/addons/wygwam folder to system/user/addons/,
    overwriting the old one
-#. If you’re coming from Wygwam 1.0.x, go to Add-Ons → Extensions, and
-   enable Wygwam’ extension
-#. Go to Add-Ons → Modules and click the “Run Module Updates” button
+#. Upload the themes/user/wygwam/wygwam folder to themes/user/,
+   overwriting the old one
+#. Go to Developer Tools → Add-On Manager and click the “Update to X.Y.Z”
+   button next to “Wygwam” in the Third Party Add-Ons section
 #. Clear your browser’s cache

@@ -1,6 +1,15 @@
 Changelog
 =========
 
+Wygwam 4.0.1
+-------------------
+Released on Feb 12, 2016
+
+* Updated CKEditor to 4.5.7.
+* Added support for changing Wygwam fields to and from other text-based field types.
+* Fixed a bug where extra dropdown menus were being created in advanced configuration settings.
+* Fixed an EE3 deprecation warning.
+
 Wygwam 4.0
 -------------------
 Released on Feb 3, 2016
